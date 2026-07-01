@@ -85,5 +85,8 @@ Rationale and alternatives are documented in
 
 ## Status
 
-📋 **Planning.** This branch contains planning artifacts only — no application code yet.
-The first implementation milestone is described in [docs/roadmap.md](docs/roadmap.md#phase-0--foundations).
+📋 **Planning + data captured.** Planning docs live in [`docs/`](docs/). The **Champions dataset is
+already ingested** from Serebii — Regulations M-A (Seasons M-1, M-2) and M-B (Season M-3): **207
+species, 297 forms (75 Megas), 493 moves, 15 items** — see
+[`packages/data/champions`](packages/data/champions/) and the scraper in [`tools/ingest`](tools/ingest/).
+App implementation is the next milestone ([docs/roadmap.md](docs/roadmap.md#phase-0--foundations)).

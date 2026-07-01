@@ -11,13 +11,15 @@ Phased delivery from prototype to public release. Each phase has a clear **goal*
 - [ ] Initialize Expo + TypeScript app (`apps/mobile`) with expo-router and strict tsconfig.
 - [ ] Set up workspace + `@battlepad/core` (pure TS) and `@battlepad/data` packages.
 - [ ] ESLint/Prettier + GitHub Actions CI (typecheck, lint, test).
-- [ ] Stand up `tools/ingest` — a **Serebii scraper** (gentle/cached; see
+- [x] **Stand up `tools/ingest` — a Serebii scraper** (gentle/cached; see
       [data-sources.md](data-sources.md#6-compliance--etiquette-for-scraping-serebii)) that ingests
       **Regulation M-A (Seasons M-1, M-2)** and **Regulation M-B (Season M-3)**: newly-usable Pokémon
       (incl. regional + **Mega forms**), **abilities/skills**, **moves**, and **item additions**.
+      → Done: dataset in [`packages/data/champions`](../packages/data/champions/)
+      (207 species, 297 forms incl. 75 Megas, 493 moves, 15 items).
 - [ ] Cross-check scraped base stats/types for shared species against `@pkmn/data`; flag discrepancies.
-- [ ] Emit a validated overlay into `@battlepad/data` with a `manifest.json`
-      (`regulations: ["M-A","M-B"]`, `seasons: ["M-1","M-2","M-3"]`).
+- [x] **Emit a validated dataset** with a `manifest.json` (`regulations: ["M-A","M-B"]`,
+      `seasons: ["M-1","M-2","M-3"]`).
 - [ ] SQLite + Drizzle wired with an initial migration and a smoke-test repository.
 
 **Exit:** app boots on iOS & Android simulators; `core` has stat + type-chart + **Mega-resolution**

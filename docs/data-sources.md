@@ -9,8 +9,12 @@ referenced from [data-model.md](data-model.md#5-data-sources--ingestion-pipeline
 > **Scope for v1 (per product direction):** cover **all three seasons to date** — Regulation **M-A**
 > (Seasons **M-1** and **M-2**) and Regulation **M-B** (Season **M-3**) — including every newly usable
 > **Pokémon** (base forms, regional forms, and **Mega forms**), their **abilities/skills**, their
-> **moves**, and the Champions **item list**. We'll likely have to "hunt around" Serebii because this
-> data is spread across regulation pages, season pages, and individual Pokédex entries.
+> **moves**, and the Champions **item list**.
+
+> ✅ **This data has been captured now** (it's static until the ~September M-B rotation). The scraper
+> lives in [`tools/ingest`](../tools/ingest/) and the generated dataset in
+> [`packages/data/champions`](../packages/data/champions/) — **207 species, 297 forms (75 Megas),
+> 493 moves, 15 added items**. Re-run once the next regulation starts (see §5 and the dataset README).
 
 ---
 
