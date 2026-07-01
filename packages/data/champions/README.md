@@ -17,6 +17,19 @@ by [`tools/ingest`](../../../tools/ingest/).
 | `forms.json` | Every legal battle form (base, regional, and Mega) with National Dex #, types, Mega flag, and **cumulative legality per regulation** |
 | `items.json` | Competitive items newly added (Regulation M-B) |
 | `pokemon.json` | Per-species detail: abilities, per-form base stats, and full move lists |
+| `crosscheck-report.json` | Base-stat validation vs `@pkmn/dex` (see below) |
+
+## Validation
+
+Base stats are cross-checked against `@pkmn/dex` via `node tools/ingest/crosscheck.mjs`:
+
+- **270 / 270** shared stat blocks are **identical** — **0 mismatches**.
+- **34 unmatched** entries, **all Champions-original Mega Evolutions** (e.g. Mega Raichu X/Y, Mega
+  Meganium, Mega Emboar, Mega Feraligatr, Mega Greninja …). These are new to Champions / Legends Z-A
+  and do not exist in `@pkmn/dex` — expected, not errors. They are the Champions-specific data only
+  Serebii provides.
+
+See `crosscheck-report.json` for the full result.
 
 ### `forms.json`
 ```jsonc

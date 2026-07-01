@@ -17,7 +17,10 @@ Phased delivery from prototype to public release. Each phase has a clear **goal*
       (incl. regional + **Mega forms**), **abilities/skills**, **moves**, and **item additions**.
       → Done: dataset in [`packages/data/champions`](../packages/data/champions/)
       (207 species, 297 forms incl. 75 Megas, 493 moves, 15 items).
-- [ ] Cross-check scraped base stats/types for shared species against `@pkmn/data`; flag discrepancies.
+- [x] **Cross-check scraped base stats for shared species against `@pkmn/dex`.**
+      → Done: 270/270 shared stat blocks identical, 0 mismatches; 34 unmatched are all
+      Champions-original Megas (expected). See `tools/ingest/crosscheck.mjs` and
+      `packages/data/champions/crosscheck-report.json`.
 - [x] **Emit a validated dataset** with a `manifest.json` (`regulations: ["M-A","M-B"]`,
       `seasons: ["M-1","M-2","M-3"]`).
 - [ ] SQLite + Drizzle wired with an initial migration and a smoke-test repository.

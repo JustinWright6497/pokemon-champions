@@ -76,9 +76,11 @@ Pokémon pool), so a Singles mode is a low-cost addition later.
    base stats, types (and Mega form stats/types/ability where present).
 3. **Join & normalize** into Battlepad's schema keyed by stable slugs; compute cumulative legality
    per regulation/season.
-4. **Cross-check** base stats / type data against `@pkmn/data` where the species is shared, and flag
-   any discrepancies for manual review (Serebii is source-of-truth for Champions legality/availability;
-   `@pkmn` is a sanity check for shared mechanics).
+4. **Cross-check** base stats against `@pkmn/dex` where the species is shared, and flag any
+   discrepancies for manual review (Serebii is source-of-truth for Champions legality/availability;
+   `@pkmn` is a sanity check for shared mechanics). ✅ **Done** — `tools/ingest/crosscheck.mjs`
+   reports **270/270 shared stat blocks identical, 0 mismatches**; the 34 unmatched entries are all
+   Champions-original Mega Evolutions (expected — they don't exist in `@pkmn/dex`).
 5. **Emit** the versioned overlay into `@battlepad/data` with a `manifest.json`
    (`{ datasetVersion, regulations: ["M-A","M-B"], seasons: ["M-1","M-2","M-3"], counts }`).
 
