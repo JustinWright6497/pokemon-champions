@@ -1,0 +1,15 @@
+{
+  "name": "@battlepad/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Serebii data ingestion + cross-checks for the Pokémon Champions dataset.",
+  "scripts": {
+    "ingest": "node scrape.mjs",
+    "ingest:refresh": "node scrape.mjs --refresh",
+    "crosscheck": "node crosscheck.mjs"
+  },
+  "dependencies": {
+    "@pkmn/dex": "^0.9.0"
+  }
+}
