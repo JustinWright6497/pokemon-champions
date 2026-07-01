@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-07-01T00:55:18.937Z",
+  "reference": "@pkmn/dex@0.9.38",
+  "note": "Base-stat sanity check vs main-series data. Unmatched entries are Champions-original forms (new Mega Evolutions) that do not exist in @pkmn/dex — expected, not errors.",
+  "matched": 270,
+  "identical": 270,
+  "mismatches": [],
+  "unmatched": [
+    {
+      "species": "barbaracle",
+      "label": "Mega Barbaracle"
+    },
+    {
+      "species": "chandelure",
+      "label": "Mega Chandelure"
+    },
+    {
+      "species": "chesnaught",
+      "label": "Mega Chesnaught"
+    },
+    {
+      "species": "chimecho",
+      "label": "Mega Chimecho"
+    },
+    {
+      "species": "clefable",
+      "label": "Mega Clefable"
+    },
+    {
+      "species": "crabominable",
+      "label": "Mega Crabominable"
+    },
+    {
+      "species": "delphox",
+      "label": "Mega Delphox"
+    },
+    {
+      "species": "dragalge",
+      "label": "Mega Dragalge"
+    },
+    {
+      "species": "dragonite",
+      "label": "Mega Dragonite"
+    },
+    {
+      "species": "drampa",
+      "label": "Mega Drampa"
+    },
+    {
+      "species": "eelektross",
+      "label": "Mega Eelektross"
+    },
+    {
+      "species": "emboar",
+      "label": "Mega Emboar"
+    },
+    {
+      "species": "excadrill",
+      "label": "Mega Excadrill"
+    },
+    {
+      "species": "falinks",
+      "label": "Mega Falinks"
+    },
+    {
+      "species": "feraligatr",
+      "label": "Mega Feraligatr"
+    },
+    {
+      "species": "floette",
+      "label": "Mega Floette"
+    },
+    {
+      "species": "froslass",
+      "label": "Mega Froslass"
+    },
+    {
+      "species": "glimmora",
+      "label": "Mega Glimmora"
+    },
+    {
+      "species": "golurk",
+      "label": "Mega Golurk"
+    },
+    {
+      "species": "greninja",
+      "label": "Mega Greninja"
+    },
+    {
+      "species": "hawlucha",
+      "label": "Mega Hawlucha"
+    },
+    {
+      "species": "malamar",
+      "label": "Mega Malamar"
+    },
+    {
+      "species": "meganium",
+      "label": "Mega Meganium"
+    },
+    {
+      "species": "meowstic",
+      "label": "Mega Meowstic"
+    },
+    {
+      "species": "pyroar",
+      "label": "Mega Pyroar"
+    },
+    {
+      "species": "raichu",
+      "label": "Mega Raichu X"
+    },
+    {
+      "species": "raichu",
+      "label": "Mega Raichu Y"
+    },
+    {
+      "species": "scolipede",
+      "label": "Mega Scolipede"
+    },
+    {
+      "species": "scovillain",
+      "label": "Mega Scovillain"
+    },
+    {
+      "species": "scrafty",
+      "label": "Mega Scrafty"
+    },
+    {
+      "species": "skarmory",
+      "label": "Mega Skarmory"
+    },
+    {
+      "species": "staraptor",
+      "label": "Mega Staraptor"
+    },
+    {
+      "species": "starmie",
+      "label": "Mega Starmie"
+    },
+    {
+      "species": "victreebel",
+      "label": "Mega Victreebel"
+    }
+  ]
+}
