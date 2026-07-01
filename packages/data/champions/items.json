@@ -1,0 +1,81 @@
+{
+  "source": "https://www.serebii.net/pokemonchampions/",
+  "generatedAt": "2026-07-01T00:40:39.166Z",
+  "addedItems": [
+    {
+      "slug": "widelens",
+      "name": "Wide Lens",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "muscleband",
+      "name": "Muscle Band",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "wiseglasses",
+      "name": "Wise Glasses",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "expertbelt",
+      "name": "Expert Belt",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "lightclay",
+      "name": "Light Clay",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "lifeorb",
+      "name": "Life Orb",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "zoomlens",
+      "name": "Zoom Lens",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "metronome",
+      "name": "Metronome",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "ironball",
+      "name": "Iron Ball",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "icyrock",
+      "name": "Icy Rock",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "smoothrock",
+      "name": "Smooth Rock",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "heatrock",
+      "name": "Heat Rock",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "damprock",
+      "name": "Damp Rock",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "shedshell",
+      "name": "Shed Shell",
+      "introducedIn": "M-B"
+    },
+    {
+      "slug": "bigroot",
+      "name": "Big Root",
+      "introducedIn": "M-B"
+    }
+  ]
+}

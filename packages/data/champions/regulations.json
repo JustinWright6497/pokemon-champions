@@ -1,0 +1,60 @@
+{
+  "source": "https://www.serebii.net/pokemonchampions/",
+  "generatedAt": "2026-07-01T00:40:39.166Z",
+  "regulations": [
+    {
+      "id": "M-A",
+      "activeFrom": "April 8th 2026",
+      "activeUntil": "June 17th 2026",
+      "rulesets": {
+        "singles": {
+          "minTeam": 3,
+          "maxTeam": 6
+        },
+        "doubles": {
+          "minTeam": 4,
+          "maxTeam": 6
+        }
+      },
+      "seasons": [
+        {
+          "id": "M-2",
+          "regulation": "M-A",
+          "from": "May 13th 2026",
+          "until": "June 17th 2026"
+        },
+        {
+          "id": "M-1",
+          "regulation": "M-A",
+          "from": "April 8th 2026",
+          "until": "May 13th 2026"
+        }
+      ],
+      "rosterCount": 259
+    },
+    {
+      "id": "M-B",
+      "activeFrom": "June 17th 2026",
+      "activeUntil": "September 2nd 2026",
+      "rulesets": {
+        "singles": {
+          "minTeam": 3,
+          "maxTeam": 6
+        },
+        "doubles": {
+          "minTeam": 4,
+          "maxTeam": 6
+        }
+      },
+      "seasons": [
+        {
+          "id": "M-3",
+          "regulation": "M-B",
+          "from": "June 17th 2026",
+          "until": "July 8th 2026"
+        }
+      ],
+      "rosterCount": 38
+    }
+  ]
+}
