@@ -3,6 +3,10 @@ tools/ingest/.cache/
 
 # Node
 node_modules/
+
+# TS build output
+dist/
+*.tsbuildinfo
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
