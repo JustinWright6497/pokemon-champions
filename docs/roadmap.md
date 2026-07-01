@@ -8,7 +8,10 @@ Phased delivery from prototype to public release. Each phase has a clear **goal*
 ## Phase 0 — Foundations
 **Goal:** a runnable Expo app skeleton and the engine/data spine, with CI.
 
-- [ ] Initialize Expo + TypeScript app (`apps/mobile`) with expo-router and strict tsconfig.
+- [x] **Initialize Expo + TypeScript app (`apps/mobile`) with expo-router and strict tsconfig.**
+      → Done (Expo SDK 57): monorepo Metro config, a **dex browser** (list + detail with stats, types,
+      abilities, **Megas**, weaknesses, moves) wired to `@battlepad/core`. Typechecks clean and
+      **bundles via Metro** (`expo export`, 1106 modules).
 - [x] **Set up workspace + `@battlepad/core` (pure TS) and `@battlepad/data` packages.**
       → Done: npm workspaces + TS project refs; `@battlepad/data` exposes the typed dataset;
       `@battlepad/core` implements natures, **stats**, **type chart/effectiveness**, **Mega resolution**,

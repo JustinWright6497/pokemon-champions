@@ -4,6 +4,7 @@
   "private": true,
   "description": "Champion's team builder & live battle companion for Pokémon Champions.",
   "workspaces": [
+    "apps/*",
     "packages/*",
     "tools/*"
   ],
