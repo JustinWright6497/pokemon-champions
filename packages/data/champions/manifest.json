@@ -1,0 +1,28 @@
+{
+  "datasetVersion": "champions-2026-07-01",
+  "source": "https://www.serebii.net/pokemonchampions/",
+  "generatedAt": "2026-07-01T00:40:39.166Z",
+  "regulations": [
+    "M-A",
+    "M-B"
+  ],
+  "seasons": [
+    "M-2",
+    "M-1",
+    "M-3"
+  ],
+  "counts": {
+    "species": 207,
+    "forms": 297,
+    "megaForms": 75,
+    "addedItems": 15,
+    "moves": 493
+  },
+  "files": [
+    "regulations.json",
+    "forms.json",
+    "items.json",
+    "pokemon.json"
+  ],
+  "attribution": "Data sourced from Serebii.net (Pokémon Champions). Not affiliated with Nintendo/Game Freak/The Pokémon Company."
+}

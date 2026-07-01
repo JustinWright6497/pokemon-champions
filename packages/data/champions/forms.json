@@ -1,0 +1,4631 @@
+{
+  "source": "https://www.serebii.net/pokemonchampions/",
+  "generatedAt": "2026-07-01T00:40:39.166Z",
+  "forms": [
+    {
+      "id": "venusaur:003",
+      "natdex": 3,
+      "speciesSlug": "venusaur",
+      "displayName": "Venusaur",
+      "icon": "003",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "venusaur:003-m",
+      "natdex": 3,
+      "speciesSlug": "venusaur",
+      "displayName": "Mega Venusaur",
+      "icon": "003-m",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "charizard:006",
+      "natdex": 6,
+      "speciesSlug": "charizard",
+      "displayName": "Charizard",
+      "icon": "006",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "charizard:006-mx",
+      "natdex": 6,
+      "speciesSlug": "charizard",
+      "displayName": "Mega Charizard X",
+      "icon": "006-mx",
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "charizard:006-my",
+      "natdex": 6,
+      "speciesSlug": "charizard",
+      "displayName": "Mega Charizard Y",
+      "icon": "006-my",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "blastoise:009",
+      "natdex": 9,
+      "speciesSlug": "blastoise",
+      "displayName": "Blastoise",
+      "icon": "009",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "blastoise:009-m",
+      "natdex": 9,
+      "speciesSlug": "blastoise",
+      "displayName": "Mega Blastoise",
+      "icon": "009-m",
+      "types": [
+        "water"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "beedrill:015",
+      "natdex": 15,
+      "speciesSlug": "beedrill",
+      "displayName": "Beedrill",
+      "icon": "015",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "beedrill:015-m",
+      "natdex": 15,
+      "speciesSlug": "beedrill",
+      "displayName": "Mega Beedrill",
+      "icon": "015-m",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pidgeot:018",
+      "natdex": 18,
+      "speciesSlug": "pidgeot",
+      "displayName": "Pidgeot",
+      "icon": "018",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pidgeot:018-m",
+      "natdex": 18,
+      "speciesSlug": "pidgeot",
+      "displayName": "Mega Pidgeot",
+      "icon": "018-m",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "arbok:024",
+      "natdex": 24,
+      "speciesSlug": "arbok",
+      "displayName": "Arbok",
+      "icon": "024",
+      "types": [
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pikachu:025",
+      "natdex": 25,
+      "speciesSlug": "pikachu",
+      "displayName": "Pikachu",
+      "icon": "025",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "raichu:026",
+      "natdex": 26,
+      "speciesSlug": "raichu",
+      "displayName": "Raichu",
+      "icon": "026",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "raichu:026-a",
+      "natdex": 26,
+      "speciesSlug": "raichu",
+      "displayName": "Raichu",
+      "icon": "026-a",
+      "types": [
+        "electric",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "clefable:036",
+      "natdex": 36,
+      "speciesSlug": "clefable",
+      "displayName": "Clefable",
+      "icon": "036",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "clefable:036-m",
+      "natdex": 36,
+      "speciesSlug": "clefable",
+      "displayName": "Mega Clefable",
+      "icon": "036-m",
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ninetales:038",
+      "natdex": 38,
+      "speciesSlug": "ninetales",
+      "displayName": "Ninetales",
+      "icon": "038",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ninetales:038-a",
+      "natdex": 38,
+      "speciesSlug": "ninetales",
+      "displayName": "Ninetales",
+      "icon": "038-a",
+      "types": [
+        "ice",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "arcanine:059",
+      "natdex": 59,
+      "speciesSlug": "arcanine",
+      "displayName": "Arcanine",
+      "icon": "059",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "arcanine:059-h",
+      "natdex": 59,
+      "speciesSlug": "arcanine",
+      "displayName": "Arcanine",
+      "icon": "059-h",
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "alakazam:065",
+      "natdex": 65,
+      "speciesSlug": "alakazam",
+      "displayName": "Alakazam",
+      "icon": "065",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "alakazam:065-m",
+      "natdex": 65,
+      "speciesSlug": "alakazam",
+      "displayName": "Mega Alakazam",
+      "icon": "065-m",
+      "types": [
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "machamp:068",
+      "natdex": 68,
+      "speciesSlug": "machamp",
+      "displayName": "Machamp",
+      "icon": "068",
+      "types": [
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "victreebel:071",
+      "natdex": 71,
+      "speciesSlug": "victreebel",
+      "displayName": "Victreebel",
+      "icon": "071",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "victreebel:071-m",
+      "natdex": 71,
+      "speciesSlug": "victreebel",
+      "displayName": "Mega Victreebel",
+      "icon": "071-m",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slowbro:080",
+      "natdex": 80,
+      "speciesSlug": "slowbro",
+      "displayName": "Slowbro",
+      "icon": "080",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slowbro:080-m",
+      "natdex": 80,
+      "speciesSlug": "slowbro",
+      "displayName": "Mega Slowbro",
+      "icon": "080-m",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slowbro:080-g",
+      "natdex": 80,
+      "speciesSlug": "slowbro",
+      "displayName": "Slowbro",
+      "icon": "080-g",
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gengar:094",
+      "natdex": 94,
+      "speciesSlug": "gengar",
+      "displayName": "Gengar",
+      "icon": "094",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gengar:094-m",
+      "natdex": 94,
+      "speciesSlug": "gengar",
+      "displayName": "Mega Gengar",
+      "icon": "094-m",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "kangaskhan:115",
+      "natdex": 115,
+      "speciesSlug": "kangaskhan",
+      "displayName": "Kangaskhan",
+      "icon": "115",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "kangaskhan:115-m",
+      "natdex": 115,
+      "speciesSlug": "kangaskhan",
+      "displayName": "Mega Kangaskhan",
+      "icon": "115-m",
+      "types": [
+        "normal"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "starmie:121",
+      "natdex": 121,
+      "speciesSlug": "starmie",
+      "displayName": "Starmie",
+      "icon": "121",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "starmie:121-m",
+      "natdex": 121,
+      "speciesSlug": "starmie",
+      "displayName": "Mega Starmie",
+      "icon": "121-m",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pinsir:127",
+      "natdex": 127,
+      "speciesSlug": "pinsir",
+      "displayName": "Pinsir",
+      "icon": "127",
+      "types": [
+        "bug"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pinsir:127-m",
+      "natdex": 127,
+      "speciesSlug": "pinsir",
+      "displayName": "Mega Pinsir",
+      "icon": "127-m",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tauros:128",
+      "natdex": 128,
+      "speciesSlug": "tauros",
+      "displayName": "Tauros",
+      "icon": "128",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tauros:128-p",
+      "natdex": 128,
+      "speciesSlug": "tauros",
+      "displayName": "Tauros",
+      "icon": "128-p",
+      "types": [
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tauros:128-b",
+      "natdex": 128,
+      "speciesSlug": "tauros",
+      "displayName": "Tauros",
+      "icon": "128-b",
+      "types": [
+        "fighting",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tauros:128-a",
+      "natdex": 128,
+      "speciesSlug": "tauros",
+      "displayName": "Tauros",
+      "icon": "128-a",
+      "types": [
+        "fighting",
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gyarados:130",
+      "natdex": 130,
+      "speciesSlug": "gyarados",
+      "displayName": "Gyarados",
+      "icon": "130",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gyarados:130-m",
+      "natdex": 130,
+      "speciesSlug": "gyarados",
+      "displayName": "Mega Gyarados",
+      "icon": "130-m",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ditto:132",
+      "natdex": 132,
+      "speciesSlug": "ditto",
+      "displayName": "Ditto",
+      "icon": "132",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "vaporeon:134",
+      "natdex": 134,
+      "speciesSlug": "vaporeon",
+      "displayName": "Vaporeon",
+      "icon": "134",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "jolteon:135",
+      "natdex": 135,
+      "speciesSlug": "jolteon",
+      "displayName": "Jolteon",
+      "icon": "135",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "flareon:136",
+      "natdex": 136,
+      "speciesSlug": "flareon",
+      "displayName": "Flareon",
+      "icon": "136",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aerodactyl:142",
+      "natdex": 142,
+      "speciesSlug": "aerodactyl",
+      "displayName": "Aerodactyl",
+      "icon": "142",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aerodactyl:142-m",
+      "natdex": 142,
+      "speciesSlug": "aerodactyl",
+      "displayName": "Mega Aerodactyl",
+      "icon": "142-m",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "snorlax:143",
+      "natdex": 143,
+      "speciesSlug": "snorlax",
+      "displayName": "Snorlax",
+      "icon": "143",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "dragonite:149",
+      "natdex": 149,
+      "speciesSlug": "dragonite",
+      "displayName": "Dragonite",
+      "icon": "149",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "dragonite:149-m",
+      "natdex": 149,
+      "speciesSlug": "dragonite",
+      "displayName": "Mega Dragonite",
+      "icon": "149-m",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "meganium:154",
+      "natdex": 154,
+      "speciesSlug": "meganium",
+      "displayName": "Meganium",
+      "icon": "154",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "meganium:154-m",
+      "natdex": 154,
+      "speciesSlug": "meganium",
+      "displayName": "Mega Meganium",
+      "icon": "154-m",
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "typhlosion:157",
+      "natdex": 157,
+      "speciesSlug": "typhlosion",
+      "displayName": "Typhlosion",
+      "icon": "157",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "typhlosion:157-h",
+      "natdex": 157,
+      "speciesSlug": "typhlosion",
+      "displayName": "Typhlosion",
+      "icon": "157-h",
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "feraligatr:160",
+      "natdex": 160,
+      "speciesSlug": "feraligatr",
+      "displayName": "Feraligatr",
+      "icon": "160",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "feraligatr:160-m",
+      "natdex": 160,
+      "speciesSlug": "feraligatr",
+      "displayName": "Mega Feraligatr",
+      "icon": "160-m",
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ariados:168",
+      "natdex": 168,
+      "speciesSlug": "ariados",
+      "displayName": "Ariados",
+      "icon": "168",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ampharos:181",
+      "natdex": 181,
+      "speciesSlug": "ampharos",
+      "displayName": "Ampharos",
+      "icon": "181",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ampharos:181-m",
+      "natdex": 181,
+      "speciesSlug": "ampharos",
+      "displayName": "Mega Ampharos",
+      "icon": "181-m",
+      "types": [
+        "electric",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "azumarill:184",
+      "natdex": 184,
+      "speciesSlug": "azumarill",
+      "displayName": "Azumarill",
+      "icon": "184",
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "politoed:186",
+      "natdex": 186,
+      "speciesSlug": "politoed",
+      "displayName": "Politoed",
+      "icon": "186",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "espeon:196",
+      "natdex": 196,
+      "speciesSlug": "espeon",
+      "displayName": "Espeon",
+      "icon": "196",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "umbreon:197",
+      "natdex": 197,
+      "speciesSlug": "umbreon",
+      "displayName": "Umbreon",
+      "icon": "197",
+      "types": [
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slowking:199",
+      "natdex": 199,
+      "speciesSlug": "slowking",
+      "displayName": "Slowking",
+      "icon": "199",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slowking:199-g",
+      "natdex": 199,
+      "speciesSlug": "slowking",
+      "displayName": "Slowking",
+      "icon": "199-g",
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "forretress:205",
+      "natdex": 205,
+      "speciesSlug": "forretress",
+      "displayName": "Forretress",
+      "icon": "205",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "steelix:208",
+      "natdex": 208,
+      "speciesSlug": "steelix",
+      "displayName": "Steelix",
+      "icon": "208",
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "steelix:208-m",
+      "natdex": 208,
+      "speciesSlug": "steelix",
+      "displayName": "Mega Steelix",
+      "icon": "208-m",
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "scizor:212",
+      "natdex": 212,
+      "speciesSlug": "scizor",
+      "displayName": "Scizor",
+      "icon": "212",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "scizor:212-m",
+      "natdex": 212,
+      "speciesSlug": "scizor",
+      "displayName": "Mega Scizor",
+      "icon": "212-m",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "heracross:214",
+      "natdex": 214,
+      "speciesSlug": "heracross",
+      "displayName": "Heracross",
+      "icon": "214",
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "heracross:214-m",
+      "natdex": 214,
+      "speciesSlug": "heracross",
+      "displayName": "Mega Heracross",
+      "icon": "214-m",
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "skarmory:227",
+      "natdex": 227,
+      "speciesSlug": "skarmory",
+      "displayName": "Skarmory",
+      "icon": "227",
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "skarmory:227-m",
+      "natdex": 227,
+      "speciesSlug": "skarmory",
+      "displayName": "Mega Skarmory",
+      "icon": "227-m",
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "houndoom:229",
+      "natdex": 229,
+      "speciesSlug": "houndoom",
+      "displayName": "Houndoom",
+      "icon": "229",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "houndoom:229-m",
+      "natdex": 229,
+      "speciesSlug": "houndoom",
+      "displayName": "Mega Houndoom",
+      "icon": "229-m",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tyranitar:248",
+      "natdex": 248,
+      "speciesSlug": "tyranitar",
+      "displayName": "Tyranitar",
+      "icon": "248",
+      "types": [
+        "rock",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tyranitar:248-m",
+      "natdex": 248,
+      "speciesSlug": "tyranitar",
+      "displayName": "Mega Tyranitar",
+      "icon": "248-m",
+      "types": [
+        "rock",
+        "dark"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pelipper:279",
+      "natdex": 279,
+      "speciesSlug": "pelipper",
+      "displayName": "Pelipper",
+      "icon": "279",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gardevoir:282",
+      "natdex": 282,
+      "speciesSlug": "gardevoir",
+      "displayName": "Gardevoir",
+      "icon": "282",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gardevoir:282-m",
+      "natdex": 282,
+      "speciesSlug": "gardevoir",
+      "displayName": "Mega Gardevoir",
+      "icon": "282-m",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sableye:302",
+      "natdex": 302,
+      "speciesSlug": "sableye",
+      "displayName": "Sableye",
+      "icon": "302",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sableye:302-m",
+      "natdex": 302,
+      "speciesSlug": "sableye",
+      "displayName": "Mega Sableye",
+      "icon": "302-m",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aggron:306",
+      "natdex": 306,
+      "speciesSlug": "aggron",
+      "displayName": "Aggron",
+      "icon": "306",
+      "types": [
+        "steel",
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aggron:306-m",
+      "natdex": 306,
+      "speciesSlug": "aggron",
+      "displayName": "Mega Aggron",
+      "icon": "306-m",
+      "types": [
+        "steel"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "medicham:308",
+      "natdex": 308,
+      "speciesSlug": "medicham",
+      "displayName": "Medicham",
+      "icon": "308",
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "medicham:308-m",
+      "natdex": 308,
+      "speciesSlug": "medicham",
+      "displayName": "Mega Medicham",
+      "icon": "308-m",
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "manectric:310",
+      "natdex": 310,
+      "speciesSlug": "manectric",
+      "displayName": "Manectric",
+      "icon": "310",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "manectric:310-m",
+      "natdex": 310,
+      "speciesSlug": "manectric",
+      "displayName": "Mega Manectric",
+      "icon": "310-m",
+      "types": [
+        "electric"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sharpedo:319",
+      "natdex": 319,
+      "speciesSlug": "sharpedo",
+      "displayName": "Sharpedo",
+      "icon": "319",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sharpedo:319-m",
+      "natdex": 319,
+      "speciesSlug": "sharpedo",
+      "displayName": "Mega Sharpedo",
+      "icon": "319-m",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "camerupt:323",
+      "natdex": 323,
+      "speciesSlug": "camerupt",
+      "displayName": "Camerupt",
+      "icon": "323",
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "camerupt:323-m",
+      "natdex": 323,
+      "speciesSlug": "camerupt",
+      "displayName": "Mega Camerupt",
+      "icon": "323-m",
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "torkoal:324",
+      "natdex": 324,
+      "speciesSlug": "torkoal",
+      "displayName": "Torkoal",
+      "icon": "324",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "altaria:334",
+      "natdex": 334,
+      "speciesSlug": "altaria",
+      "displayName": "Altaria",
+      "icon": "334",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "altaria:334-m",
+      "natdex": 334,
+      "speciesSlug": "altaria",
+      "displayName": "Mega Altaria",
+      "icon": "334-m",
+      "types": [
+        "dragon",
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "milotic:350",
+      "natdex": 350,
+      "speciesSlug": "milotic",
+      "displayName": "Milotic",
+      "icon": "350",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "castform:351",
+      "natdex": 351,
+      "speciesSlug": "castform",
+      "displayName": "Castform",
+      "icon": "351",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "banette:354",
+      "natdex": 354,
+      "speciesSlug": "banette",
+      "displayName": "Banette",
+      "icon": "354",
+      "types": [
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "banette:354-m",
+      "natdex": 354,
+      "speciesSlug": "banette",
+      "displayName": "Mega Banette",
+      "icon": "354-m",
+      "types": [
+        "ghost"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chimecho:358",
+      "natdex": 358,
+      "speciesSlug": "chimecho",
+      "displayName": "Chimecho",
+      "icon": "358",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chimecho:358-m",
+      "natdex": 358,
+      "speciesSlug": "chimecho",
+      "displayName": "Mega Chimecho",
+      "icon": "358-m",
+      "types": [
+        "psychic",
+        "steel"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "absol:359",
+      "natdex": 359,
+      "speciesSlug": "absol",
+      "displayName": "Absol",
+      "icon": "359",
+      "types": [
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "absol:359-m",
+      "natdex": 359,
+      "speciesSlug": "absol",
+      "displayName": "Mega Absol",
+      "icon": "359-m",
+      "types": [
+        "dark"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "glalie:362",
+      "natdex": 362,
+      "speciesSlug": "glalie",
+      "displayName": "Glalie",
+      "icon": "362",
+      "types": [
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "glalie:362-m",
+      "natdex": 362,
+      "speciesSlug": "glalie",
+      "displayName": "Mega Glalie",
+      "icon": "362-m",
+      "types": [
+        "ice"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "torterra:389",
+      "natdex": 389,
+      "speciesSlug": "torterra",
+      "displayName": "Torterra",
+      "icon": "389",
+      "types": [
+        "grass",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "infernape:392",
+      "natdex": 392,
+      "speciesSlug": "infernape",
+      "displayName": "Infernape",
+      "icon": "392",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "empoleon:395",
+      "natdex": 395,
+      "speciesSlug": "empoleon",
+      "displayName": "Empoleon",
+      "icon": "395",
+      "types": [
+        "water",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "luxray:405",
+      "natdex": 405,
+      "speciesSlug": "luxray",
+      "displayName": "Luxray",
+      "icon": "405",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "roserade:407",
+      "natdex": 407,
+      "speciesSlug": "roserade",
+      "displayName": "Roserade",
+      "icon": "407",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "rampardos:409",
+      "natdex": 409,
+      "speciesSlug": "rampardos",
+      "displayName": "Rampardos",
+      "icon": "409",
+      "types": [
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "bastiodon:411",
+      "natdex": 411,
+      "speciesSlug": "bastiodon",
+      "displayName": "Bastiodon",
+      "icon": "411",
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "lopunny:428",
+      "natdex": 428,
+      "speciesSlug": "lopunny",
+      "displayName": "Lopunny",
+      "icon": "428",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "lopunny:428-m",
+      "natdex": 428,
+      "speciesSlug": "lopunny",
+      "displayName": "Mega Lopunny",
+      "icon": "428-m",
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "spiritomb:442",
+      "natdex": 442,
+      "speciesSlug": "spiritomb",
+      "displayName": "Spiritomb",
+      "icon": "442",
+      "types": [
+        "ghost",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "garchomp:445",
+      "natdex": 445,
+      "speciesSlug": "garchomp",
+      "displayName": "Garchomp",
+      "icon": "445",
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "garchomp:445-m",
+      "natdex": 445,
+      "speciesSlug": "garchomp",
+      "displayName": "Mega Garchomp",
+      "icon": "445-m",
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "lucario:448",
+      "natdex": 448,
+      "speciesSlug": "lucario",
+      "displayName": "Lucario",
+      "icon": "448",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "lucario:448-m",
+      "natdex": 448,
+      "speciesSlug": "lucario",
+      "displayName": "Mega Lucario",
+      "icon": "448-m",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hippowdon:450",
+      "natdex": 450,
+      "speciesSlug": "hippowdon",
+      "displayName": "Hippowdon",
+      "icon": "450",
+      "types": [
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "toxicroak:454",
+      "natdex": 454,
+      "speciesSlug": "toxicroak",
+      "displayName": "Toxicroak",
+      "icon": "454",
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "abomasnow:460",
+      "natdex": 460,
+      "speciesSlug": "abomasnow",
+      "displayName": "Abomasnow",
+      "icon": "460",
+      "types": [
+        "grass",
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "abomasnow:460-m",
+      "natdex": 460,
+      "speciesSlug": "abomasnow",
+      "displayName": "Mega Abomasnow",
+      "icon": "460-m",
+      "types": [
+        "grass",
+        "ice"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "weavile:461",
+      "natdex": 461,
+      "speciesSlug": "weavile",
+      "displayName": "Weavile",
+      "icon": "461",
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "rhyperior:464",
+      "natdex": 464,
+      "speciesSlug": "rhyperior",
+      "displayName": "Rhyperior",
+      "icon": "464",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "leafeon:470",
+      "natdex": 470,
+      "speciesSlug": "leafeon",
+      "displayName": "Leafeon",
+      "icon": "470",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "glaceon:471",
+      "natdex": 471,
+      "speciesSlug": "glaceon",
+      "displayName": "Glaceon",
+      "icon": "471",
+      "types": [
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gliscor:472",
+      "natdex": 472,
+      "speciesSlug": "gliscor",
+      "displayName": "Gliscor",
+      "icon": "472",
+      "types": [
+        "ground",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "mamoswine:473",
+      "natdex": 473,
+      "speciesSlug": "mamoswine",
+      "displayName": "Mamoswine",
+      "icon": "473",
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gallade:475",
+      "natdex": 475,
+      "speciesSlug": "gallade",
+      "displayName": "Gallade",
+      "icon": "475",
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gallade:475-m",
+      "natdex": 475,
+      "speciesSlug": "gallade",
+      "displayName": "Mega Gallade",
+      "icon": "475-m",
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "froslass:478",
+      "natdex": 478,
+      "speciesSlug": "froslass",
+      "displayName": "Froslass",
+      "icon": "478",
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "froslass:478-m",
+      "natdex": 478,
+      "speciesSlug": "froslass",
+      "displayName": "Mega Froslass",
+      "icon": "478-m",
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "rotom:479",
+      "natdex": 479,
+      "speciesSlug": "rotom",
+      "displayName": "Rotom",
+      "icon": "479",
+      "types": [
+        "electric",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "serperior:497",
+      "natdex": 497,
+      "speciesSlug": "serperior",
+      "displayName": "Serperior",
+      "icon": "497",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "emboar:500",
+      "natdex": 500,
+      "speciesSlug": "emboar",
+      "displayName": "Emboar",
+      "icon": "500",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "emboar:500-m",
+      "natdex": 500,
+      "speciesSlug": "emboar",
+      "displayName": "Mega Emboar",
+      "icon": "500-m",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "samurott:503",
+      "natdex": 503,
+      "speciesSlug": "samurott",
+      "displayName": "Samurott",
+      "icon": "503",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "samurott:503-h",
+      "natdex": 503,
+      "speciesSlug": "samurott",
+      "displayName": "Samurott",
+      "icon": "503-h",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "watchog:505",
+      "natdex": 505,
+      "speciesSlug": "watchog",
+      "displayName": "Watchog",
+      "icon": "505",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "liepard:510",
+      "natdex": 510,
+      "speciesSlug": "liepard",
+      "displayName": "Liepard",
+      "icon": "510",
+      "types": [
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "simisage:512",
+      "natdex": 512,
+      "speciesSlug": "simisage",
+      "displayName": "Simisage",
+      "icon": "512",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "simisear:514",
+      "natdex": 514,
+      "speciesSlug": "simisear",
+      "displayName": "Simisear",
+      "icon": "514",
+      "types": [
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "simipour:516",
+      "natdex": 516,
+      "speciesSlug": "simipour",
+      "displayName": "Simipour",
+      "icon": "516",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "excadrill:530",
+      "natdex": 530,
+      "speciesSlug": "excadrill",
+      "displayName": "Excadrill",
+      "icon": "530",
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "excadrill:530-m",
+      "natdex": 530,
+      "speciesSlug": "excadrill",
+      "displayName": "Mega Excadrill",
+      "icon": "530-m",
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "audino:531",
+      "natdex": 531,
+      "speciesSlug": "audino",
+      "displayName": "Audino",
+      "icon": "531",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "audino:531-m",
+      "natdex": 531,
+      "speciesSlug": "audino",
+      "displayName": "Mega Audino",
+      "icon": "531-m",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "conkeldurr:534",
+      "natdex": 534,
+      "speciesSlug": "conkeldurr",
+      "displayName": "Conkeldurr",
+      "icon": "534",
+      "types": [
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "whimsicott:547",
+      "natdex": 547,
+      "speciesSlug": "whimsicott",
+      "displayName": "Whimsicott",
+      "icon": "547",
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "krookodile:553",
+      "natdex": 553,
+      "speciesSlug": "krookodile",
+      "displayName": "Krookodile",
+      "icon": "553",
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "cofagrigus:563",
+      "natdex": 563,
+      "speciesSlug": "cofagrigus",
+      "displayName": "Cofagrigus",
+      "icon": "563",
+      "types": [
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "garbodor:569",
+      "natdex": 569,
+      "speciesSlug": "garbodor",
+      "displayName": "Garbodor",
+      "icon": "569",
+      "types": [
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "zoroark:571",
+      "natdex": 571,
+      "speciesSlug": "zoroark",
+      "displayName": "Zoroark",
+      "icon": "571",
+      "types": [
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "zoroark:571-h",
+      "natdex": 571,
+      "speciesSlug": "zoroark",
+      "displayName": "Zoroark",
+      "icon": "571-h",
+      "types": [
+        "normal",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "reuniclus:579",
+      "natdex": 579,
+      "speciesSlug": "reuniclus",
+      "displayName": "Reuniclus",
+      "icon": "579",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "vanilluxe:584",
+      "natdex": 584,
+      "speciesSlug": "vanilluxe",
+      "displayName": "Vanilluxe",
+      "icon": "584",
+      "types": [
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "emolga:587",
+      "natdex": 587,
+      "speciesSlug": "emolga",
+      "displayName": "Emolga",
+      "icon": "587",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chandelure:609",
+      "natdex": 609,
+      "speciesSlug": "chandelure",
+      "displayName": "Chandelure",
+      "icon": "609",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chandelure:609-m",
+      "natdex": 609,
+      "speciesSlug": "chandelure",
+      "displayName": "Mega Chandelure",
+      "icon": "609-m",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "beartic:614",
+      "natdex": 614,
+      "speciesSlug": "beartic",
+      "displayName": "Beartic",
+      "icon": "614",
+      "types": [
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "stunfisk:618",
+      "natdex": 618,
+      "speciesSlug": "stunfisk",
+      "displayName": "Stunfisk",
+      "icon": "618",
+      "types": [
+        "ground",
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "stunfisk:618-g",
+      "natdex": 618,
+      "speciesSlug": "stunfisk",
+      "displayName": "Stunfisk",
+      "icon": "618-g",
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "golurk:623",
+      "natdex": 623,
+      "speciesSlug": "golurk",
+      "displayName": "Golurk",
+      "icon": "623",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "golurk:623-m",
+      "natdex": 623,
+      "speciesSlug": "golurk",
+      "displayName": "Mega Golurk",
+      "icon": "623-m",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hydreigon:635",
+      "natdex": 635,
+      "speciesSlug": "hydreigon",
+      "displayName": "Hydreigon",
+      "icon": "635",
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "volcarona:637",
+      "natdex": 637,
+      "speciesSlug": "volcarona",
+      "displayName": "Volcarona",
+      "icon": "637",
+      "types": [
+        "bug",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chesnaught:652",
+      "natdex": 652,
+      "speciesSlug": "chesnaught",
+      "displayName": "Chesnaught",
+      "icon": "652",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "chesnaught:652-m",
+      "natdex": 652,
+      "speciesSlug": "chesnaught",
+      "displayName": "Mega Chesnaught",
+      "icon": "652-m",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "delphox:655",
+      "natdex": 655,
+      "speciesSlug": "delphox",
+      "displayName": "Delphox",
+      "icon": "655",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "delphox:655-m",
+      "natdex": 655,
+      "speciesSlug": "delphox",
+      "displayName": "Mega Delphox",
+      "icon": "655-m",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "greninja:658",
+      "natdex": 658,
+      "speciesSlug": "greninja",
+      "displayName": "Greninja",
+      "icon": "658",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "greninja:658-m",
+      "natdex": 658,
+      "speciesSlug": "greninja",
+      "displayName": "Mega Greninja",
+      "icon": "658-m",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "diggersby:660",
+      "natdex": 660,
+      "speciesSlug": "diggersby",
+      "displayName": "Diggersby",
+      "icon": "660",
+      "types": [
+        "normal",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "talonflame:663",
+      "natdex": 663,
+      "speciesSlug": "talonflame",
+      "displayName": "Talonflame",
+      "icon": "663",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "vivillon:666",
+      "natdex": 666,
+      "speciesSlug": "vivillon",
+      "displayName": "Vivillon",
+      "icon": "666",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "floette:670-m",
+      "natdex": 670,
+      "speciesSlug": "floette",
+      "displayName": "Mega Floette",
+      "icon": "670-m",
+      "types": [
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "floette:670-e",
+      "natdex": 670,
+      "speciesSlug": "floette",
+      "displayName": "Floette",
+      "icon": "670-e",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "florges:671",
+      "natdex": 671,
+      "speciesSlug": "florges",
+      "displayName": "Florges",
+      "icon": "671",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "pangoro:675",
+      "natdex": 675,
+      "speciesSlug": "pangoro",
+      "displayName": "Pangoro",
+      "icon": "675",
+      "types": [
+        "fighting",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "furfrou:676",
+      "natdex": 676,
+      "speciesSlug": "furfrou",
+      "displayName": "Furfrou",
+      "icon": "676",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "meowstic:678",
+      "natdex": 678,
+      "speciesSlug": "meowstic",
+      "displayName": "Meowstic",
+      "icon": "678",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "meowstic:678-m",
+      "natdex": 678,
+      "speciesSlug": "meowstic",
+      "displayName": "Mega Meowstic",
+      "icon": "678-m",
+      "types": [
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aegislash:681",
+      "natdex": 681,
+      "speciesSlug": "aegislash",
+      "displayName": "Aegislash",
+      "icon": "681",
+      "types": [
+        "steel",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aromatisse:683",
+      "natdex": 683,
+      "speciesSlug": "aromatisse",
+      "displayName": "Aromatisse",
+      "icon": "683",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "slurpuff:685",
+      "natdex": 685,
+      "speciesSlug": "slurpuff",
+      "displayName": "Slurpuff",
+      "icon": "685",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "clawitzer:693",
+      "natdex": 693,
+      "speciesSlug": "clawitzer",
+      "displayName": "Clawitzer",
+      "icon": "693",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "heliolisk:695",
+      "natdex": 695,
+      "speciesSlug": "heliolisk",
+      "displayName": "Heliolisk",
+      "icon": "695",
+      "types": [
+        "electric",
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tyrantrum:697",
+      "natdex": 697,
+      "speciesSlug": "tyrantrum",
+      "displayName": "Tyrantrum",
+      "icon": "697",
+      "types": [
+        "rock",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "aurorus:699",
+      "natdex": 699,
+      "speciesSlug": "aurorus",
+      "displayName": "Aurorus",
+      "icon": "699",
+      "types": [
+        "rock",
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sylveon:700",
+      "natdex": 700,
+      "speciesSlug": "sylveon",
+      "displayName": "Sylveon",
+      "icon": "700",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hawlucha:701",
+      "natdex": 701,
+      "speciesSlug": "hawlucha",
+      "displayName": "Hawlucha",
+      "icon": "701",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hawlucha:701-m",
+      "natdex": 701,
+      "speciesSlug": "hawlucha",
+      "displayName": "Mega Hawlucha",
+      "icon": "701-m",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "dedenne:702",
+      "natdex": 702,
+      "speciesSlug": "dedenne",
+      "displayName": "Dedenne",
+      "icon": "702",
+      "types": [
+        "electric",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "goodra:706",
+      "natdex": 706,
+      "speciesSlug": "goodra",
+      "displayName": "Goodra",
+      "icon": "706",
+      "types": [
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "goodra:706-h",
+      "natdex": 706,
+      "speciesSlug": "goodra",
+      "displayName": "Goodra",
+      "icon": "706-h",
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "klefki:707",
+      "natdex": 707,
+      "speciesSlug": "klefki",
+      "displayName": "Klefki",
+      "icon": "707",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "trevenant:709",
+      "natdex": 709,
+      "speciesSlug": "trevenant",
+      "displayName": "Trevenant",
+      "icon": "709",
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "gourgeist:711",
+      "natdex": 711,
+      "speciesSlug": "gourgeist",
+      "displayName": "Gourgeist",
+      "icon": "711",
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "avalugg:713",
+      "natdex": 713,
+      "speciesSlug": "avalugg",
+      "displayName": "Avalugg",
+      "icon": "713",
+      "types": [
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "avalugg:713-h",
+      "natdex": 713,
+      "speciesSlug": "avalugg",
+      "displayName": "Avalugg",
+      "icon": "713-h",
+      "types": [
+        "ice",
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "noivern:715",
+      "natdex": 715,
+      "speciesSlug": "noivern",
+      "displayName": "Noivern",
+      "icon": "715",
+      "types": [
+        "flying",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "decidueye:724",
+      "natdex": 724,
+      "speciesSlug": "decidueye",
+      "displayName": "Decidueye",
+      "icon": "724",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "decidueye:724-h",
+      "natdex": 724,
+      "speciesSlug": "decidueye",
+      "displayName": "Decidueye",
+      "icon": "724-h",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "incineroar:727",
+      "natdex": 727,
+      "speciesSlug": "incineroar",
+      "displayName": "Incineroar",
+      "icon": "727",
+      "types": [
+        "fire",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "primarina:730",
+      "natdex": 730,
+      "speciesSlug": "primarina",
+      "displayName": "Primarina",
+      "icon": "730",
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "toucannon:733",
+      "natdex": 733,
+      "speciesSlug": "toucannon",
+      "displayName": "Toucannon",
+      "icon": "733",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "crabominable:740",
+      "natdex": 740,
+      "speciesSlug": "crabominable",
+      "displayName": "Crabominable",
+      "icon": "740",
+      "types": [
+        "fighting",
+        "ice"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "crabominable:740-m",
+      "natdex": 740,
+      "speciesSlug": "crabominable",
+      "displayName": "Mega Crabominable",
+      "icon": "740-m",
+      "types": [
+        "fighting",
+        "ice"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "lycanroc:745",
+      "natdex": 745,
+      "speciesSlug": "lycanroc",
+      "displayName": "Lycanroc",
+      "icon": "745",
+      "types": [
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "toxapex:748",
+      "natdex": 748,
+      "speciesSlug": "toxapex",
+      "displayName": "Toxapex",
+      "icon": "748",
+      "types": [
+        "poison",
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "mudsdale:750",
+      "natdex": 750,
+      "speciesSlug": "mudsdale",
+      "displayName": "Mudsdale",
+      "icon": "750",
+      "types": [
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "araquanid:752",
+      "natdex": 752,
+      "speciesSlug": "araquanid",
+      "displayName": "Araquanid",
+      "icon": "752",
+      "types": [
+        "water",
+        "bug"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "salazzle:758",
+      "natdex": 758,
+      "speciesSlug": "salazzle",
+      "displayName": "Salazzle",
+      "icon": "758",
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tsareena:763",
+      "natdex": 763,
+      "speciesSlug": "tsareena",
+      "displayName": "Tsareena",
+      "icon": "763",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "oranguru:765",
+      "natdex": 765,
+      "speciesSlug": "oranguru",
+      "displayName": "Oranguru",
+      "icon": "765",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "passimian:766",
+      "natdex": 766,
+      "speciesSlug": "passimian",
+      "displayName": "Passimian",
+      "icon": "766",
+      "types": [
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "mimikyu:778",
+      "natdex": 778,
+      "speciesSlug": "mimikyu",
+      "displayName": "Mimikyu",
+      "icon": "778",
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "drampa:780",
+      "natdex": 780,
+      "speciesSlug": "drampa",
+      "displayName": "Drampa",
+      "icon": "780",
+      "types": [
+        "normal",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "drampa:780-m",
+      "natdex": 780,
+      "speciesSlug": "drampa",
+      "displayName": "Mega Drampa",
+      "icon": "780-m",
+      "types": [
+        "normal",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "kommo-o:784",
+      "natdex": 784,
+      "speciesSlug": "kommo-o",
+      "displayName": "Kommo-o",
+      "icon": "784",
+      "types": [
+        "dragon",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "corviknight:823",
+      "natdex": 823,
+      "speciesSlug": "corviknight",
+      "displayName": "Corviknight",
+      "icon": "823",
+      "types": [
+        "flying",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "flapple:841",
+      "natdex": 841,
+      "speciesSlug": "flapple",
+      "displayName": "Flapple",
+      "icon": "841",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "appletun:842",
+      "natdex": 842,
+      "speciesSlug": "appletun",
+      "displayName": "Appletun",
+      "icon": "842",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sandaconda:844",
+      "natdex": 844,
+      "speciesSlug": "sandaconda",
+      "displayName": "Sandaconda",
+      "icon": "844",
+      "types": [
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "polteageist:855",
+      "natdex": 855,
+      "speciesSlug": "polteageist",
+      "displayName": "Polteageist",
+      "icon": "855",
+      "types": [
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hatterene:858",
+      "natdex": 858,
+      "speciesSlug": "hatterene",
+      "displayName": "Hatterene",
+      "icon": "858",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "runerigus:867",
+      "natdex": 867,
+      "speciesSlug": "runerigus",
+      "displayName": "Runerigus",
+      "icon": "867",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "alcremie:869",
+      "natdex": 869,
+      "speciesSlug": "alcremie",
+      "displayName": "Alcremie",
+      "icon": "869",
+      "types": [
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "morpeko:877",
+      "natdex": 877,
+      "speciesSlug": "morpeko",
+      "displayName": "Morpeko",
+      "icon": "877",
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "dragapult:887",
+      "natdex": 887,
+      "speciesSlug": "dragapult",
+      "displayName": "Dragapult",
+      "icon": "887",
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "wyrdeer:899",
+      "natdex": 899,
+      "speciesSlug": "wyrdeer",
+      "displayName": "Wyrdeer",
+      "icon": "899",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "kleavor:900",
+      "natdex": 900,
+      "speciesSlug": "kleavor",
+      "displayName": "Kleavor",
+      "icon": "900",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "basculegion:902",
+      "natdex": 902,
+      "speciesSlug": "basculegion",
+      "displayName": "Basculegion",
+      "icon": "902",
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sneasler:903",
+      "natdex": 903,
+      "speciesSlug": "sneasler",
+      "displayName": "Sneasler",
+      "icon": "903",
+      "types": [
+        "fighting",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "meowscarada:908",
+      "natdex": 908,
+      "speciesSlug": "meowscarada",
+      "displayName": "Meowscarada",
+      "icon": "908",
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "skeledirge:911",
+      "natdex": 911,
+      "speciesSlug": "skeledirge",
+      "displayName": "Skeledirge",
+      "icon": "911",
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "quaquaval:914",
+      "natdex": 914,
+      "speciesSlug": "quaquaval",
+      "displayName": "Quaquaval",
+      "icon": "914",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "maushold:925",
+      "natdex": 925,
+      "speciesSlug": "maushold",
+      "displayName": "Maushold",
+      "icon": "925",
+      "types": [
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "garganacl:934",
+      "natdex": 934,
+      "speciesSlug": "garganacl",
+      "displayName": "Garganacl",
+      "icon": "934",
+      "types": [
+        "rock"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "armarouge:936",
+      "natdex": 936,
+      "speciesSlug": "armarouge",
+      "displayName": "Armarouge",
+      "icon": "936",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "ceruledge:937",
+      "natdex": 937,
+      "speciesSlug": "ceruledge",
+      "displayName": "Ceruledge",
+      "icon": "937",
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "bellibolt:939",
+      "natdex": 939,
+      "speciesSlug": "bellibolt",
+      "displayName": "Bellibolt",
+      "icon": "939",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "scovillain:952",
+      "natdex": 952,
+      "speciesSlug": "scovillain",
+      "displayName": "Scovillain",
+      "icon": "952",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "scovillain:952-m",
+      "natdex": 952,
+      "speciesSlug": "scovillain",
+      "displayName": "Mega Scovillain",
+      "icon": "952-m",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "espathra:956",
+      "natdex": 956,
+      "speciesSlug": "espathra",
+      "displayName": "Espathra",
+      "icon": "956",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "tinkaton:959",
+      "natdex": 959,
+      "speciesSlug": "tinkaton",
+      "displayName": "Tinkaton",
+      "icon": "959",
+      "types": [
+        "fairy",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "palafin:964",
+      "natdex": 964,
+      "speciesSlug": "palafin",
+      "displayName": "Palafin",
+      "icon": "964",
+      "types": [
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "orthworm:968",
+      "natdex": 968,
+      "speciesSlug": "orthworm",
+      "displayName": "Orthworm",
+      "icon": "968",
+      "types": [
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "glimmora:970",
+      "natdex": 970,
+      "speciesSlug": "glimmora",
+      "displayName": "Glimmora",
+      "icon": "970",
+      "types": [
+        "rock",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "glimmora:970-m",
+      "natdex": 970,
+      "speciesSlug": "glimmora",
+      "displayName": "Mega Glimmora",
+      "icon": "970-m",
+      "types": [
+        "rock",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "farigiraf:981",
+      "natdex": 981,
+      "speciesSlug": "farigiraf",
+      "displayName": "Farigiraf",
+      "icon": "981",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "kingambit:983",
+      "natdex": 983,
+      "speciesSlug": "kingambit",
+      "displayName": "Kingambit",
+      "icon": "983",
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "sinistcha:1013",
+      "natdex": 1013,
+      "speciesSlug": "sinistcha",
+      "displayName": "Sinistcha",
+      "icon": "1013",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "archaludon:1018",
+      "natdex": 1018,
+      "speciesSlug": "archaludon",
+      "displayName": "Archaludon",
+      "icon": "1018",
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "hydrapple:1019",
+      "natdex": 1019,
+      "speciesSlug": "hydrapple",
+      "displayName": "Hydrapple",
+      "icon": "1019",
+      "types": [
+        "grass",
+        "dragon",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-A",
+      "introducedIn": "M-A"
+    },
+    {
+      "id": "raichu:026-mx",
+      "natdex": 26,
+      "speciesSlug": "raichu",
+      "displayName": "Mega Raichu X",
+      "icon": "026-mx",
+      "types": [
+        "electric"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "raichu:026-my",
+      "natdex": 26,
+      "speciesSlug": "raichu",
+      "displayName": "Mega Raichu Y",
+      "icon": "026-my",
+      "types": [
+        "electric"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "vileplume:045",
+      "natdex": 45,
+      "speciesSlug": "vileplume",
+      "displayName": "Vileplume",
+      "icon": "045",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "qwilfish:211",
+      "natdex": 211,
+      "speciesSlug": "qwilfish",
+      "displayName": "Qwilfish",
+      "icon": "211",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "sceptile:254",
+      "natdex": 254,
+      "speciesSlug": "sceptile",
+      "displayName": "Sceptile",
+      "icon": "254",
+      "types": [
+        "grass"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "sceptile:254-m",
+      "natdex": 254,
+      "speciesSlug": "sceptile",
+      "displayName": "Mega Sceptile",
+      "icon": "254-m",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "blaziken:257",
+      "natdex": 257,
+      "speciesSlug": "blaziken",
+      "displayName": "Blaziken",
+      "icon": "257",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "blaziken:257-m",
+      "natdex": 257,
+      "speciesSlug": "blaziken",
+      "displayName": "Mega Blaziken",
+      "icon": "257-m",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "swampert:260",
+      "natdex": 260,
+      "speciesSlug": "swampert",
+      "displayName": "Swampert",
+      "icon": "260",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "swampert:260-m",
+      "natdex": 260,
+      "speciesSlug": "swampert",
+      "displayName": "Mega Swampert",
+      "icon": "260-m",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "mawile:303",
+      "natdex": 303,
+      "speciesSlug": "mawile",
+      "displayName": "Mawile",
+      "icon": "303",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "mawile:303-m",
+      "natdex": 303,
+      "speciesSlug": "mawile",
+      "displayName": "Mega Mawile",
+      "icon": "303-m",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "metagross:376",
+      "natdex": 376,
+      "speciesSlug": "metagross",
+      "displayName": "Metagross",
+      "icon": "376",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "metagross:376-m",
+      "natdex": 376,
+      "speciesSlug": "metagross",
+      "displayName": "Mega Metagross",
+      "icon": "376-m",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "staraptor:398",
+      "natdex": 398,
+      "speciesSlug": "staraptor",
+      "displayName": "Staraptor",
+      "icon": "398",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "staraptor:398-m",
+      "natdex": 398,
+      "speciesSlug": "staraptor",
+      "displayName": "Mega Staraptor",
+      "icon": "398-m",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "musharna:518",
+      "natdex": 518,
+      "speciesSlug": "musharna",
+      "displayName": "Musharna",
+      "icon": "518",
+      "types": [
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "scolipede:545",
+      "natdex": 545,
+      "speciesSlug": "scolipede",
+      "displayName": "Scolipede",
+      "icon": "545",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "scolipede:545-m",
+      "natdex": 545,
+      "speciesSlug": "scolipede",
+      "displayName": "Mega Scolipede",
+      "icon": "545-m",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "scrafty:560",
+      "natdex": 560,
+      "speciesSlug": "scrafty",
+      "displayName": "Scrafty",
+      "icon": "560",
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "scrafty:560-m",
+      "natdex": 560,
+      "speciesSlug": "scrafty",
+      "displayName": "Mega Scrafty",
+      "icon": "560-m",
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "eelektross:604",
+      "natdex": 604,
+      "speciesSlug": "eelektross",
+      "displayName": "Eelektross",
+      "icon": "604",
+      "types": [
+        "electric"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "eelektross:604-m",
+      "natdex": 604,
+      "speciesSlug": "eelektross",
+      "displayName": "Mega Eelektross",
+      "icon": "604-m",
+      "types": [
+        "electric"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "pyroar:668",
+      "natdex": 668,
+      "speciesSlug": "pyroar",
+      "displayName": "Pyroar",
+      "icon": "668",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "pyroar:668-m",
+      "natdex": 668,
+      "speciesSlug": "pyroar",
+      "displayName": "Mega Pyroar",
+      "icon": "668-m",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "malamar:687",
+      "natdex": 687,
+      "speciesSlug": "malamar",
+      "displayName": "Malamar",
+      "icon": "687",
+      "types": [
+        "dark",
+        "psychic"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "malamar:687-m",
+      "natdex": 687,
+      "speciesSlug": "malamar",
+      "displayName": "Mega Malamar",
+      "icon": "687-m",
+      "types": [
+        "dark",
+        "psychic"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "barbaracle:689",
+      "natdex": 689,
+      "speciesSlug": "barbaracle",
+      "displayName": "Barbaracle",
+      "icon": "689",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "barbaracle:689-m",
+      "natdex": 689,
+      "speciesSlug": "barbaracle",
+      "displayName": "Mega Barbaracle",
+      "icon": "689-m",
+      "types": [
+        "rock",
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "dragalge:691",
+      "natdex": 691,
+      "speciesSlug": "dragalge",
+      "displayName": "Dragalge",
+      "icon": "691",
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "dragalge:691-m",
+      "natdex": 691,
+      "speciesSlug": "dragalge",
+      "displayName": "Mega Dragalge",
+      "icon": "691-m",
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "grimmsnarl:861",
+      "natdex": 861,
+      "speciesSlug": "grimmsnarl",
+      "displayName": "Grimmsnarl",
+      "icon": "861",
+      "types": [
+        "dark",
+        "fairy"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "falinks:870",
+      "natdex": 870,
+      "speciesSlug": "falinks",
+      "displayName": "Falinks",
+      "icon": "870",
+      "types": [
+        "fighting"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "falinks:870-m",
+      "natdex": 870,
+      "speciesSlug": "falinks",
+      "displayName": "Mega Falinks",
+      "icon": "870-m",
+      "types": [
+        "fighting"
+      ],
+      "isMega": true,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "overqwil:904",
+      "natdex": 904,
+      "speciesSlug": "overqwil",
+      "displayName": "Overqwil",
+      "icon": "904",
+      "types": [
+        "dark",
+        "poison"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "houndstone:972",
+      "natdex": 972,
+      "speciesSlug": "houndstone",
+      "displayName": "Houndstone",
+      "icon": "972",
+      "types": [
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "annihilape:979",
+      "natdex": 979,
+      "speciesSlug": "annihilape",
+      "displayName": "Annihilape",
+      "icon": "979",
+      "types": [
+        "fighting",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    },
+    {
+      "id": "gholdengo:1000",
+      "natdex": 1000,
+      "speciesSlug": "gholdengo",
+      "displayName": "Gholdengo",
+      "icon": "1000",
+      "types": [
+        "steel",
+        "ghost"
+      ],
+      "isMega": false,
+      "regulation": "M-B",
+      "introducedIn": "M-B"
+    }
+  ],
+  "legalFormsByRegulation": {
+    "M-A": [
+      "venusaur:003",
+      "venusaur:003-m",
+      "charizard:006",
+      "charizard:006-mx",
+      "charizard:006-my",
+      "blastoise:009",
+      "blastoise:009-m",
+      "beedrill:015",
+      "beedrill:015-m",
+      "pidgeot:018",
+      "pidgeot:018-m",
+      "arbok:024",
+      "pikachu:025",
+      "raichu:026",
+      "raichu:026-a",
+      "clefable:036",
+      "clefable:036-m",
+      "ninetales:038",
+      "ninetales:038-a",
+      "arcanine:059",
+      "arcanine:059-h",
+      "alakazam:065",
+      "alakazam:065-m",
+      "machamp:068",
+      "victreebel:071",
+      "victreebel:071-m",
+      "slowbro:080",
+      "slowbro:080-m",
+      "slowbro:080-g",
+      "gengar:094",
+      "gengar:094-m",
+      "kangaskhan:115",
+      "kangaskhan:115-m",
+      "starmie:121",
+      "starmie:121-m",
+      "pinsir:127",
+      "pinsir:127-m",
+      "tauros:128",
+      "tauros:128-p",
+      "tauros:128-b",
+      "tauros:128-a",
+      "gyarados:130",
+      "gyarados:130-m",
+      "ditto:132",
+      "vaporeon:134",
+      "jolteon:135",
+      "flareon:136",
+      "aerodactyl:142",
+      "aerodactyl:142-m",
+      "snorlax:143",
+      "dragonite:149",
+      "dragonite:149-m",
+      "meganium:154",
+      "meganium:154-m",
+      "typhlosion:157",
+      "typhlosion:157-h",
+      "feraligatr:160",
+      "feraligatr:160-m",
+      "ariados:168",
+      "ampharos:181",
+      "ampharos:181-m",
+      "azumarill:184",
+      "politoed:186",
+      "espeon:196",
+      "umbreon:197",
+      "slowking:199",
+      "slowking:199-g",
+      "forretress:205",
+      "steelix:208",
+      "steelix:208-m",
+      "scizor:212",
+      "scizor:212-m",
+      "heracross:214",
+      "heracross:214-m",
+      "skarmory:227",
+      "skarmory:227-m",
+      "houndoom:229",
+      "houndoom:229-m",
+      "tyranitar:248",
+      "tyranitar:248-m",
+      "pelipper:279",
+      "gardevoir:282",
+      "gardevoir:282-m",
+      "sableye:302",
+      "sableye:302-m",
+      "aggron:306",
+      "aggron:306-m",
+      "medicham:308",
+      "medicham:308-m",
+      "manectric:310",
+      "manectric:310-m",
+      "sharpedo:319",
+      "sharpedo:319-m",
+      "camerupt:323",
+      "camerupt:323-m",
+      "torkoal:324",
+      "altaria:334",
+      "altaria:334-m",
+      "milotic:350",
+      "castform:351",
+      "banette:354",
+      "banette:354-m",
+      "chimecho:358",
+      "chimecho:358-m",
+      "absol:359",
+      "absol:359-m",
+      "glalie:362",
+      "glalie:362-m",
+      "torterra:389",
+      "infernape:392",
+      "empoleon:395",
+      "luxray:405",
+      "roserade:407",
+      "rampardos:409",
+      "bastiodon:411",
+      "lopunny:428",
+      "lopunny:428-m",
+      "spiritomb:442",
+      "garchomp:445",
+      "garchomp:445-m",
+      "lucario:448",
+      "lucario:448-m",
+      "hippowdon:450",
+      "toxicroak:454",
+      "abomasnow:460",
+      "abomasnow:460-m",
+      "weavile:461",
+      "rhyperior:464",
+      "leafeon:470",
+      "glaceon:471",
+      "gliscor:472",
+      "mamoswine:473",
+      "gallade:475",
+      "gallade:475-m",
+      "froslass:478",
+      "froslass:478-m",
+      "rotom:479",
+      "serperior:497",
+      "emboar:500",
+      "emboar:500-m",
+      "samurott:503",
+      "samurott:503-h",
+      "watchog:505",
+      "liepard:510",
+      "simisage:512",
+      "simisear:514",
+      "simipour:516",
+      "excadrill:530",
+      "excadrill:530-m",
+      "audino:531",
+      "audino:531-m",
+      "conkeldurr:534",
+      "whimsicott:547",
+      "krookodile:553",
+      "cofagrigus:563",
+      "garbodor:569",
+      "zoroark:571",
+      "zoroark:571-h",
+      "reuniclus:579",
+      "vanilluxe:584",
+      "emolga:587",
+      "chandelure:609",
+      "chandelure:609-m",
+      "beartic:614",
+      "stunfisk:618",
+      "stunfisk:618-g",
+      "golurk:623",
+      "golurk:623-m",
+      "hydreigon:635",
+      "volcarona:637",
+      "chesnaught:652",
+      "chesnaught:652-m",
+      "delphox:655",
+      "delphox:655-m",
+      "greninja:658",
+      "greninja:658-m",
+      "diggersby:660",
+      "talonflame:663",
+      "vivillon:666",
+      "floette:670-m",
+      "floette:670-e",
+      "florges:671",
+      "pangoro:675",
+      "furfrou:676",
+      "meowstic:678",
+      "meowstic:678-m",
+      "aegislash:681",
+      "aromatisse:683",
+      "slurpuff:685",
+      "clawitzer:693",
+      "heliolisk:695",
+      "tyrantrum:697",
+      "aurorus:699",
+      "sylveon:700",
+      "hawlucha:701",
+      "hawlucha:701-m",
+      "dedenne:702",
+      "goodra:706",
+      "goodra:706-h",
+      "klefki:707",
+      "trevenant:709",
+      "gourgeist:711",
+      "avalugg:713",
+      "avalugg:713-h",
+      "noivern:715",
+      "decidueye:724",
+      "decidueye:724-h",
+      "incineroar:727",
+      "primarina:730",
+      "toucannon:733",
+      "crabominable:740",
+      "crabominable:740-m",
+      "lycanroc:745",
+      "toxapex:748",
+      "mudsdale:750",
+      "araquanid:752",
+      "salazzle:758",
+      "tsareena:763",
+      "oranguru:765",
+      "passimian:766",
+      "mimikyu:778",
+      "drampa:780",
+      "drampa:780-m",
+      "kommo-o:784",
+      "corviknight:823",
+      "flapple:841",
+      "appletun:842",
+      "sandaconda:844",
+      "polteageist:855",
+      "hatterene:858",
+      "runerigus:867",
+      "alcremie:869",
+      "morpeko:877",
+      "dragapult:887",
+      "wyrdeer:899",
+      "kleavor:900",
+      "basculegion:902",
+      "sneasler:903",
+      "meowscarada:908",
+      "skeledirge:911",
+      "quaquaval:914",
+      "maushold:925",
+      "garganacl:934",
+      "armarouge:936",
+      "ceruledge:937",
+      "bellibolt:939",
+      "scovillain:952",
+      "scovillain:952-m",
+      "espathra:956",
+      "tinkaton:959",
+      "palafin:964",
+      "orthworm:968",
+      "glimmora:970",
+      "glimmora:970-m",
+      "farigiraf:981",
+      "kingambit:983",
+      "sinistcha:1013",
+      "archaludon:1018",
+      "hydrapple:1019"
+    ],
+    "M-B": [
+      "venusaur:003",
+      "venusaur:003-m",
+      "charizard:006",
+      "charizard:006-mx",
+      "charizard:006-my",
+      "blastoise:009",
+      "blastoise:009-m",
+      "beedrill:015",
+      "beedrill:015-m",
+      "pidgeot:018",
+      "pidgeot:018-m",
+      "arbok:024",
+      "pikachu:025",
+      "raichu:026",
+      "raichu:026-a",
+      "clefable:036",
+      "clefable:036-m",
+      "ninetales:038",
+      "ninetales:038-a",
+      "arcanine:059",
+      "arcanine:059-h",
+      "alakazam:065",
+      "alakazam:065-m",
+      "machamp:068",
+      "victreebel:071",
+      "victreebel:071-m",
+      "slowbro:080",
+      "slowbro:080-m",
+      "slowbro:080-g",
+      "gengar:094",
+      "gengar:094-m",
+      "kangaskhan:115",
+      "kangaskhan:115-m",
+      "starmie:121",
+      "starmie:121-m",
+      "pinsir:127",
+      "pinsir:127-m",
+      "tauros:128",
+      "tauros:128-p",
+      "tauros:128-b",
+      "tauros:128-a",
+      "gyarados:130",
+      "gyarados:130-m",
+      "ditto:132",
+      "vaporeon:134",
+      "jolteon:135",
+      "flareon:136",
+      "aerodactyl:142",
+      "aerodactyl:142-m",
+      "snorlax:143",
+      "dragonite:149",
+      "dragonite:149-m",
+      "meganium:154",
+      "meganium:154-m",
+      "typhlosion:157",
+      "typhlosion:157-h",
+      "feraligatr:160",
+      "feraligatr:160-m",
+      "ariados:168",
+      "ampharos:181",
+      "ampharos:181-m",
+      "azumarill:184",
+      "politoed:186",
+      "espeon:196",
+      "umbreon:197",
+      "slowking:199",
+      "slowking:199-g",
+      "forretress:205",
+      "steelix:208",
+      "steelix:208-m",
+      "scizor:212",
+      "scizor:212-m",
+      "heracross:214",
+      "heracross:214-m",
+      "skarmory:227",
+      "skarmory:227-m",
+      "houndoom:229",
+      "houndoom:229-m",
+      "tyranitar:248",
+      "tyranitar:248-m",
+      "pelipper:279",
+      "gardevoir:282",
+      "gardevoir:282-m",
+      "sableye:302",
+      "sableye:302-m",
+      "aggron:306",
+      "aggron:306-m",
+      "medicham:308",
+      "medicham:308-m",
+      "manectric:310",
+      "manectric:310-m",
+      "sharpedo:319",
+      "sharpedo:319-m",
+      "camerupt:323",
+      "camerupt:323-m",
+      "torkoal:324",
+      "altaria:334",
+      "altaria:334-m",
+      "milotic:350",
+      "castform:351",
+      "banette:354",
+      "banette:354-m",
+      "chimecho:358",
+      "chimecho:358-m",
+      "absol:359",
+      "absol:359-m",
+      "glalie:362",
+      "glalie:362-m",
+      "torterra:389",
+      "infernape:392",
+      "empoleon:395",
+      "luxray:405",
+      "roserade:407",
+      "rampardos:409",
+      "bastiodon:411",
+      "lopunny:428",
+      "lopunny:428-m",
+      "spiritomb:442",
+      "garchomp:445",
+      "garchomp:445-m",
+      "lucario:448",
+      "lucario:448-m",
+      "hippowdon:450",
+      "toxicroak:454",
+      "abomasnow:460",
+      "abomasnow:460-m",
+      "weavile:461",
+      "rhyperior:464",
+      "leafeon:470",
+      "glaceon:471",
+      "gliscor:472",
+      "mamoswine:473",
+      "gallade:475",
+      "gallade:475-m",
+      "froslass:478",
+      "froslass:478-m",
+      "rotom:479",
+      "serperior:497",
+      "emboar:500",
+      "emboar:500-m",
+      "samurott:503",
+      "samurott:503-h",
+      "watchog:505",
+      "liepard:510",
+      "simisage:512",
+      "simisear:514",
+      "simipour:516",
+      "excadrill:530",
+      "excadrill:530-m",
+      "audino:531",
+      "audino:531-m",
+      "conkeldurr:534",
+      "whimsicott:547",
+      "krookodile:553",
+      "cofagrigus:563",
+      "garbodor:569",
+      "zoroark:571",
+      "zoroark:571-h",
+      "reuniclus:579",
+      "vanilluxe:584",
+      "emolga:587",
+      "chandelure:609",
+      "chandelure:609-m",
+      "beartic:614",
+      "stunfisk:618",
+      "stunfisk:618-g",
+      "golurk:623",
+      "golurk:623-m",
+      "hydreigon:635",
+      "volcarona:637",
+      "chesnaught:652",
+      "chesnaught:652-m",
+      "delphox:655",
+      "delphox:655-m",
+      "greninja:658",
+      "greninja:658-m",
+      "diggersby:660",
+      "talonflame:663",
+      "vivillon:666",
+      "floette:670-m",
+      "floette:670-e",
+      "florges:671",
+      "pangoro:675",
+      "furfrou:676",
+      "meowstic:678",
+      "meowstic:678-m",
+      "aegislash:681",
+      "aromatisse:683",
+      "slurpuff:685",
+      "clawitzer:693",
+      "heliolisk:695",
+      "tyrantrum:697",
+      "aurorus:699",
+      "sylveon:700",
+      "hawlucha:701",
+      "hawlucha:701-m",
+      "dedenne:702",
+      "goodra:706",
+      "goodra:706-h",
+      "klefki:707",
+      "trevenant:709",
+      "gourgeist:711",
+      "avalugg:713",
+      "avalugg:713-h",
+      "noivern:715",
+      "decidueye:724",
+      "decidueye:724-h",
+      "incineroar:727",
+      "primarina:730",
+      "toucannon:733",
+      "crabominable:740",
+      "crabominable:740-m",
+      "lycanroc:745",
+      "toxapex:748",
+      "mudsdale:750",
+      "araquanid:752",
+      "salazzle:758",
+      "tsareena:763",
+      "oranguru:765",
+      "passimian:766",
+      "mimikyu:778",
+      "drampa:780",
+      "drampa:780-m",
+      "kommo-o:784",
+      "corviknight:823",
+      "flapple:841",
+      "appletun:842",
+      "sandaconda:844",
+      "polteageist:855",
+      "hatterene:858",
+      "runerigus:867",
+      "alcremie:869",
+      "morpeko:877",
+      "dragapult:887",
+      "wyrdeer:899",
+      "kleavor:900",
+      "basculegion:902",
+      "sneasler:903",
+      "meowscarada:908",
+      "skeledirge:911",
+      "quaquaval:914",
+      "maushold:925",
+      "garganacl:934",
+      "armarouge:936",
+      "ceruledge:937",
+      "bellibolt:939",
+      "scovillain:952",
+      "scovillain:952-m",
+      "espathra:956",
+      "tinkaton:959",
+      "palafin:964",
+      "orthworm:968",
+      "glimmora:970",
+      "glimmora:970-m",
+      "farigiraf:981",
+      "kingambit:983",
+      "sinistcha:1013",
+      "archaludon:1018",
+      "hydrapple:1019",
+      "raichu:026-mx",
+      "raichu:026-my",
+      "vileplume:045",
+      "qwilfish:211",
+      "sceptile:254",
+      "sceptile:254-m",
+      "blaziken:257",
+      "blaziken:257-m",
+      "swampert:260",
+      "swampert:260-m",
+      "mawile:303",
+      "mawile:303-m",
+      "metagross:376",
+      "metagross:376-m",
+      "staraptor:398",
+      "staraptor:398-m",
+      "musharna:518",
+      "scolipede:545",
+      "scolipede:545-m",
+      "scrafty:560",
+      "scrafty:560-m",
+      "eelektross:604",
+      "eelektross:604-m",
+      "pyroar:668",
+      "pyroar:668-m",
+      "malamar:687",
+      "malamar:687-m",
+      "barbaracle:689",
+      "barbaracle:689-m",
+      "dragalge:691",
+      "dragalge:691-m",
+      "grimmsnarl:861",
+      "falinks:870",
+      "falinks:870-m",
+      "overqwil:904",
+      "houndstone:972",
+      "annihilape:979",
+      "gholdengo:1000"
+    ]
+  }
+}

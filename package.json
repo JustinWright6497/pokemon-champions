@@ -1,0 +1,22 @@
+{
+  "name": "battlepad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Champion's team builder & live battle companion for Pokémon Champions.",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b packages/data packages/core",
+    "ingest": "node tools/ingest/scrape.mjs",
+    "crosscheck": "node tools/ingest/crosscheck.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
