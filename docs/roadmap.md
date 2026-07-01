@@ -9,7 +9,11 @@ Phased delivery from prototype to public release. Each phase has a clear **goal*
 **Goal:** a runnable Expo app skeleton and the engine/data spine, with CI.
 
 - [ ] Initialize Expo + TypeScript app (`apps/mobile`) with expo-router and strict tsconfig.
-- [ ] Set up workspace + `@battlepad/core` (pure TS) and `@battlepad/data` packages.
+- [x] **Set up workspace + `@battlepad/core` (pure TS) and `@battlepad/data` packages.**
+      → Done: npm workspaces + TS project refs; `@battlepad/data` exposes the typed dataset;
+      `@battlepad/core` implements natures, **stats**, **type chart/effectiveness**, **Mega resolution**,
+      and **legality** (species/item clause, EV cap, allowed-form check). **20 unit tests pass**,
+      `tsc -b` clean.
 - [ ] ESLint/Prettier + GitHub Actions CI (typecheck, lint, test).
 - [x] **Stand up `tools/ingest` — a Serebii scraper** (gentle/cached; see
       [data-sources.md](data-sources.md#6-compliance--etiquette-for-scraping-serebii)) that ingests
