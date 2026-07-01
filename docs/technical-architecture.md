@@ -4,15 +4,21 @@
 
 **Decision: React Native + Expo (managed workflow), TypeScript everywhere.**
 
+> This was chosen specifically because the ask was for the option that is **best and most
+> inexpensive to get online** across both app stores. Expo + EAS is the lowest-cost path to shipping
+> a single codebase to iOS and Android.
+
 ### Why
-- **One codebase, both stores.** Champions use both iOS and Android; a single RN codebase covers
-  both with near-native UX.
-- **TypeScript end-to-end** lets us share the *core game engine* (stats, type math, legality,
-  damage) between the app and any future web/CLI tooling with zero rewrites.
-- **Rich OSS ecosystem in TS/JS for Pokémon data**: `@smogon/calc`, `@pkmn/dex`, `@pkmn/data`,
-  PokéAPI sprites — all directly consumable from RN.
-- **Expo** gives us OTA updates, easy builds (EAS), and good offline-storage modules, while still
-  allowing native modules via prebuild/dev-clients if needed.
+- **One codebase, both stores.** Competitive players use both iOS and Android; a single RN codebase
+  covers both with near-native UX, minimizing build/maintenance cost.
+- **TypeScript end-to-end** lets us share the *core game engine* (stats, type math, legality, Mega
+  handling, damage) between the app and any future web/CLI tooling with zero rewrites.
+- **Reusable TS/JS Pokémon data ecosystem**: `@smogon/calc`, `@pkmn/dex`, `@pkmn/data` cover the
+  main-series mechanics (types, abilities, moves, and the classic Megas) that **Pokémon Champions**
+  shares. Champions-specific gaps (new Legends Z-A Megas, Reg M-B allow-lists) are filled by our own
+  data layer — see [§9](#9-data-availability-risk-pokémon-champions).
+- **Expo** gives us OTA updates, cheap builds (EAS free/low tiers), and good offline-storage modules,
+  while still allowing native modules via prebuild/dev-clients if needed.
 
 ### Alternatives considered
 | Option | Verdict |
@@ -82,8 +88,10 @@
 - **Zustand** for in-memory UI/session state (current team being edited, active battle session).
 - **React Query (TanStack Query)** to wrap repository reads/writes so screens get caching,
   loading/error states, and invalidation for free.
-- **Offline-first by default:** the app must fully function with no network. Network is only used
-  for optional account sync and dataset updates.
+- **Offline-only for v1:** the app must fully function with no network, and the first release ships
+  **no account/cloud features at all** (per product decision). Any future network use (dataset
+  refresh, optional sync) is deferred to a later phase and must never become a hard dependency of the
+  builder or companion.
 
 ## 5. Offline & data strategy
 - **Static reference data** (species, moves, items, abilities, type chart, format rulesets) is
@@ -95,15 +103,22 @@
   signed dataset download checked against a version manifest.
 
 ## 6. Core engine responsibilities (`@battlepad/core`)
-- `stats`: compute final stats from base/level/IV/EV/nature.
+- `stats`: compute final stats from base/level/IV/EV/nature (Level 50 default for Champions VGC).
 - `types`: type-effectiveness multipliers, team defensive matrix, offensive coverage.
-- `legality`: validate a set/team against a format ruleset (clauses, banlists, learnsets).
-- `damage`: thin, well-typed wrapper over **`@smogon/calc`** so we never hand-roll damage math.
-- `speed`: speed-tier computation with field/stat-stage/item/ability modifiers.
+- `mega`: resolve a Pokémon's **Mega form** (stat/type/ability changes) from species + Mega Stone,
+  and enforce the one-Mega-per-side rule during battle sessions. Mega state feeds every other module
+  (stats, types, speed, damage) so all outputs can reflect base **or** Mega form.
+- `legality`: validate a set/team against a **regulation set** (species/item clauses, level cap,
+  allowed-Pokémon list, **Mega eligibility**, legal movesets).
+- `damage`: thin, well-typed wrapper over **`@smogon/calc`** so we never hand-roll damage math;
+  passes through Mega form and field/modifier state.
+- `speed`: speed-tier computation with field/stat-stage/item/ability modifiers, incl. pre/post-Mega.
+- `pokepaste`: parse/serialize PokéPaste-compatible text.
 
 > **Principle:** prefer wrapping audited libraries (`@smogon/calc`, `@pkmn/*`) over reimplementing
 > game mechanics. Reimplementation is the #1 source of "the app gave me a wrong number" bugs, which
-> destroy trust in a competitive tool.
+> destroy trust in a competitive tool. Where Champions diverges from what those libraries model
+> (new Megas, M-B lists), isolate the divergence in our data layer, not in re-derived math.
 
 ## 7. Testing strategy
 - **Unit tests** for every `core` function; golden-file/snapshot tests for damage and stats against
@@ -120,9 +135,35 @@
 - **CI:** GitHub Actions (typecheck, lint, test); EAS Build for app binaries.
 - **Releases:** Expo EAS + OTA updates for JS-only changes.
 
-## 9. Legal & compliance
+## 9. Data availability risk (Pokémon Champions)
+
+**This is the biggest technical unknown.** Pokémon Champions is a new game, and the mainstream
+competitive data/calc libraries (`@pkmn/*`, `@smogon/calc`) are built around the main-series games
+(Scarlet/Violet + earlier). What that means for us:
+
+- **What likely already works:** species base stats, types, abilities, moves, the type chart, and
+  the **classic Gen 6/7 Mega Evolutions** — these mechanics are shared and well-modeled in existing
+  libraries.
+- **What is likely missing / must be sourced ourselves:**
+  - The **16 new Legends Z-A Mega Evolutions** added in Reg M-B (and any M-A Megas not present in
+    older data), including their Mega stats/types/abilities and Mega Stones.
+  - The **Reg M-B allowed-Pokémon list** and Champions-specific availability (HOME transfer rules).
+  - Any Champions-specific mechanical differences from Scarlet/Violet.
+- **Mitigation:**
+  1. Build a dedicated **Champions data layer** (`@battlepad/data`) that starts from `@pkmn/data`
+     for shared content and **overlays** Champions/M-B specifics we curate ourselves.
+  2. Keep every regulation set as a **versioned, swappable dataset** so the September M-B→next
+     rotation is a data update, not code changes.
+  3. Encode Mega transforms as **explicit data** (base→mega stat/type/ability deltas), validated by
+     golden tests, rather than relying on library coverage we can't guarantee.
+  4. **Verify our numbers against in-game reality** for a sample of Reg M-B Megas before launch;
+     treat any mismatch as a release blocker.
+- **Open action (Phase 0):** audit exactly which M-B Pokémon/Megas are present in `@pkmn/data`/
+  `@smogon/calc` at build time and enumerate the gap we must fill manually.
+
+## 10. Legal & compliance
 > This is a **third-party fan companion app**, not affiliated with Nintendo, Game Freak, or
-> The Pokémon Company.
+> The Pokémon Company. Built for **Pokémon Champions**.
 
 - **No first-party assets shipped:** do not bundle official sprites, artwork, audio, or text ripped
   from the games. Use open/community sprite sets only where licenses permit, or generate
