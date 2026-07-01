@@ -12,22 +12,32 @@ offline-capable phone app you can use at a tournament table or while laddering.
 
 **Game:** Pokémon Champions (turn-based battle game; the official VGC platform for the 2026 season).
 
-**Format for v1: VGC Regulation Set M-B** (17 June – 2 September 2026; used through the 2026 World
-Championships). Rules that shape the product:
+**Data scope for v1:** all three seasons to date — **Regulation M-A** (Seasons **M-1** and **M-2**)
+and **Regulation M-B** (Season **M-3**, current). We ingest every newly-usable Pokémon, their
+abilities/skills, and moves for these regulations from **Serebii** (see
+[data-sources.md](data-sources.md)). **VGC Regulation M-B / Season M-3** is the active competitive
+target the UI defaults to.
 
-- **Double Battles**, all Pokémon auto-leveled to **Level 50**.
-- **Bring 6, pick 4** at team preview (90-second team-preview timer; 45s per move; 20-min game).
+Rules that shape the product (from the Serebii regulation pages):
+
+- Champions Ranked has **two rulesets**, both auto-leveling all Pokémon to **Level 50**:
+  - **Doubles (= VGC):** team of **4–6**, bring your team and **pick 4** at team preview. *Primary focus.*
+  - **Singles:** team of **3–6**. Supported by the same data; a Singles mode is a low-cost later add.
+- Timers: **Your Time 7 min**, **Team Preview 90 s**, **Turn 45 s**.
 - **Species Clause** (no two Pokémon sharing a National Pokédex number) and **Item Clause**
   (no duplicate held items).
-- **Mega Evolution** is allowed but limited to an **eligible list** (all M-A Megas plus 16 new
-  Legends Z-A Megas in M-B). No Terastallization.
+- **Mega Evolution** is allowed, limited to an **eligible list** that grows by regulation (M-A allowed
+  the classic Megas; M-B **added** new ones — e.g. Mega Raichu X/Y, Mega Sceptile/Blaziken/Swampert,
+  Mega Mawile, Mega Metagross). **No Terastallization.**
+- M-B also **added competitive items** (Life Orb, Expert Belt, Wide Lens, weather rocks, etc.).
 - Team members must be obtainable in Champions or brought in via **Pokémon HOME**.
 - **Open team sheets** at TPCi events: at match start players exchange full team lists (species,
   abilities, items, all known moves, stat alignment). Notes on the opponent's list are not allowed
   *in-game*, but a player planning their own strategy from what they saw is normal play.
 
-> Because M-B rotates out on 2 September 2026, the data layer must be **versioned by regulation set**
-> so future rotations are a data update, not a rewrite (see data-model.md).
+> Regulations rotate (M-B ends 2 September 2026), and each spans multiple seasons, so the data layer
+> is **versioned by regulation/season** — future rotations are a data update, not a rewrite (see
+> data-model.md and data-sources.md).
 
 ## 3. Target users ("champions")
 
@@ -109,8 +119,9 @@ A user can, fully offline:
 ## 8. Key risks
 | Risk | Mitigation |
 | --- | --- |
-| **Champions data availability** (new Legends Z-A Megas, M-B allow-lists may not exist in mainstream datasets yet) | Custom Champions data layer + ingestion pipeline; start with what community datasets cover and fill gaps manually (see technical-architecture.md §9) |
+| **Champions data availability** (new Megas, M-A/M-B allow-lists not in mainstream datasets) | Source Champions data from **Serebii** into a versioned overlay; cross-check shared species against `@pkmn/data` (see technical-architecture.md §9 and data-sources.md) |
 | **Correctness of game math** (esp. Mega stat/type/ability swaps) | Reuse battle-tested OSS where it applies; golden-file tests for base and Mega cases |
-| **Format rotation** (M-B ends 2 Sept 2026) | Version data by regulation set so rotations are data updates |
+| **Scraping dependency** (Serebii ToS, page-structure changes) | Scrape gently at build time only, cache, attribute; isolate parsers so structure changes are contained |
+| **Format rotation** (M-B ends 2 Sept 2026; multiple seasons per reg) | Version data by regulation/season so rotations are data updates |
 | **IP/trademark** | Third-party companion positioning, no first-party assets, clear disclaimers |
 | **Scope creep** | Strict MVP gate; Companion ships "lite" first |

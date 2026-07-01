@@ -18,8 +18,9 @@ Battlepad targets **Pokémon Champions VGC**, not Scarlet/Violet. Key implicatio
 - **Mega Evolution** is the signature battle mechanic (back for the first time since 2019). There is
   **no Terastallization** — Battlepad models Megas, not Tera.
 - Teams are built from Pokémon obtained in Champions or brought in via **Pokémon HOME**.
-- The current ruleset is **VGC Regulation Set M-B** (17 June – 2 September 2026), used through the
-  2026 World Championships. This is the **first format Battlepad will seed**.
+- Battlepad seeds **all three seasons to date**: **Regulation M-A** (Seasons M-1 & M-2) and
+  **Regulation M-B** (Season M-3, current — 17 June onward, used through the 2026 World Championships),
+  with **M-B / Season M-3** as the active default.
 - TPCi events use **open team sheets** — at team preview you legally know the opponent's species,
   abilities, items, and moves. Battlepad turns this into a live planning advantage.
 
@@ -59,6 +60,7 @@ See the [Product Plan](docs/product-plan.md) for the full feature breakdown and 
 | [docs/product-plan.md](docs/product-plan.md) | Vision, target users, feature breakdown, MVP scope, success metrics |
 | [docs/technical-architecture.md](docs/technical-architecture.md) | Tech-stack decision, app architecture, offline strategy, legal/compliance |
 | [docs/data-model.md](docs/data-model.md) | Domain entities, local schema, and data-source ingestion pipeline |
+| [docs/data-sources.md](docs/data-sources.md) | Serebii source map, regulation/season matrix (M-A/M-B), rulesets, and scraping/compliance plan |
 | [docs/roadmap.md](docs/roadmap.md) | Phased delivery plan from prototype to release |
 
 ---
@@ -70,10 +72,10 @@ See the [Product Plan](docs/product-plan.md) for the full feature breakdown and 
 - **State/data:** Zustand (UI state) + SQLite via Drizzle/expo-sqlite (offline-first storage).
 - **Core engine:** A shared, framework-agnostic TypeScript package for stats, type math, legality,
   Mega Evolution handling, and damage calculation.
-- **Data sources:** Existing main-series datasets (`@pkmn/data`) cover most species/moves/abilities
-  and classic Megas; a **Champions-specific data layer** supplies Reg M-B allow-lists and the new
-  Legends Z-A Mega Evolutions. See the data-source risk in
-  [docs/technical-architecture.md](docs/technical-architecture.md#9-data-availability-risk-pokémon-champions).
+- **Data sources:** **Serebii** is the source of truth for Champions — per-regulation/season legality
+  (M-A → Seasons M-1/M-2; M-B → Season M-3), newly-usable Pokémon (incl. Mega forms), abilities/skills,
+  moves, and item additions — ingested into a versioned overlay and cross-checked against `@pkmn/data`.
+  See [docs/data-sources.md](docs/data-sources.md).
 - **Cloud:** none in v1 — **offline-only** first release. Optional sync deferred to a later phase.
 
 Rationale and alternatives are documented in

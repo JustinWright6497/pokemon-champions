@@ -15,8 +15,9 @@
   handling, damage) between the app and any future web/CLI tooling with zero rewrites.
 - **Reusable TS/JS Pokémon data ecosystem**: `@smogon/calc`, `@pkmn/dex`, `@pkmn/data` cover the
   main-series mechanics (types, abilities, moves, and the classic Megas) that **Pokémon Champions**
-  shares. Champions-specific gaps (new Legends Z-A Megas, Reg M-B allow-lists) are filled by our own
-  data layer — see [§9](#9-data-availability-risk-pokémon-champions).
+  shares. Champions-specific data (Reg M-A/M-B legality, new Mega forms, item additions) is sourced
+  from **Serebii** into our own overlay — see [§9](#9-data-availability-risk-pokémon-champions) and
+  [data-sources.md](data-sources.md).
 - **Expo** gives us OTA updates, cheap builds (EAS free/low tiers), and good offline-storage modules,
   while still allowing native modules via prebuild/dev-clients if needed.
 
@@ -144,22 +145,26 @@ competitive data/calc libraries (`@pkmn/*`, `@smogon/calc`) are built around the
 - **What likely already works:** species base stats, types, abilities, moves, the type chart, and
   the **classic Gen 6/7 Mega Evolutions** — these mechanics are shared and well-modeled in existing
   libraries.
-- **What is likely missing / must be sourced ourselves:**
-  - The **16 new Legends Z-A Mega Evolutions** added in Reg M-B (and any M-A Megas not present in
-    older data), including their Mega stats/types/abilities and Mega Stones.
-  - The **Reg M-B allowed-Pokémon list** and Champions-specific availability (HOME transfer rules).
+- **What is likely missing / must be sourced from Serebii:**
+  - The **new Mega Evolutions introduced in Champions** (M-B adds several beyond the classic set —
+    e.g. Mega Raichu X/Y, Mega Sceptile/Blaziken/Swampert, Mega Mawile, Mega Metagross), including
+    their Mega stats/types/abilities and Mega Stones.
+  - The **cumulative allowed-Pokémon lists** for M-A (Seasons M-1/M-2) and M-B (Season M-3), plus
+    Champions-specific availability (HOME transfer rules) and the **M-B item additions**.
   - Any Champions-specific mechanical differences from Scarlet/Violet.
 - **Mitigation:**
-  1. Build a dedicated **Champions data layer** (`@battlepad/data`) that starts from `@pkmn/data`
-     for shared content and **overlays** Champions/M-B specifics we curate ourselves.
-  2. Keep every regulation set as a **versioned, swappable dataset** so the September M-B→next
-     rotation is a data update, not code changes.
+  1. Build a dedicated **Champions data layer** (`@battlepad/data`) sourced from **Serebii** (the
+     authoritative Champions legality/roster/ability/move source — see
+     [data-sources.md](data-sources.md)), cross-checked against `@pkmn/data` for shared content.
+  2. Keep every regulation as a **versioned, swappable dataset** (M-A → M-B → next) so the September
+     M-B rotation is a data update, not code changes.
   3. Encode Mega transforms as **explicit data** (base→mega stat/type/ability deltas), validated by
      golden tests, rather than relying on library coverage we can't guarantee.
-  4. **Verify our numbers against in-game reality** for a sample of Reg M-B Megas before launch;
+  4. **Verify our numbers against in-game reality** for a sample of M-A/M-B Megas before launch;
      treat any mismatch as a release blocker.
-- **Open action (Phase 0):** audit exactly which M-B Pokémon/Megas are present in `@pkmn/data`/
-  `@smogon/calc` at build time and enumerate the gap we must fill manually.
+- **Open action (Phase 0):** stand up the Serebii ingestion for **M-A (Seasons M-1, M-2)** and
+  **M-B (Season M-3)** — Pokémon, abilities/skills, moves, Megas, and items — and cross-check shared
+  species against `@pkmn/data`.
 
 ## 10. Legal & compliance
 > This is a **third-party fan companion app**, not affiliated with Nintendo, Game Freak, or

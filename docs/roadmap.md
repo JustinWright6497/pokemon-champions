@@ -11,15 +11,18 @@ Phased delivery from prototype to public release. Each phase has a clear **goal*
 - [ ] Initialize Expo + TypeScript app (`apps/mobile`) with expo-router and strict tsconfig.
 - [ ] Set up workspace + `@battlepad/core` (pure TS) and `@battlepad/data` packages.
 - [ ] ESLint/Prettier + GitHub Actions CI (typecheck, lint, test).
-- [ ] **Champions data-gap audit:** determine which Reg M-B species and the 16 new Legends Z-A Megas
-      already exist in `@pkmn/data`/`@smogon/calc` vs. what our overlay must supply.
-- [ ] Stand up `tools/ingest`: pull shared content from `@pkmn/data`, apply the **Champions overlay**,
-      and emit a validated v1 dataset seeding **Regulation Set M-B** with a `manifest.json`.
+- [ ] Stand up `tools/ingest` — a **Serebii scraper** (gentle/cached; see
+      [data-sources.md](data-sources.md#6-compliance--etiquette-for-scraping-serebii)) that ingests
+      **Regulation M-A (Seasons M-1, M-2)** and **Regulation M-B (Season M-3)**: newly-usable Pokémon
+      (incl. regional + **Mega forms**), **abilities/skills**, **moves**, and **item additions**.
+- [ ] Cross-check scraped base stats/types for shared species against `@pkmn/data`; flag discrepancies.
+- [ ] Emit a validated overlay into `@battlepad/data` with a `manifest.json`
+      (`regulations: ["M-A","M-B"]`, `seasons: ["M-1","M-2","M-3"]`).
 - [ ] SQLite + Drizzle wired with an initial migration and a smoke-test repository.
 
 **Exit:** app boots on iOS & Android simulators; `core` has stat + type-chart + **Mega-resolution**
-functions with passing tests; the Reg M-B dataset loads and a sample species **and at least one Mega
-form** read correctly.
+functions with passing tests; the M-A/M-B dataset loads, cumulative legality is correct, and a sample
+species **plus at least one Mega form** read correctly (abilities + moves present).
 
 ---
 
@@ -93,6 +96,6 @@ calc and matchup check mid-battle in a few taps.
   [technical-architecture.md §10](technical-architecture.md#10-legal--compliance)).
 
 ## Immediate next step
-Kick off **Phase 0** — scaffold the Expo app and `@battlepad/core`, run the **Champions data-gap
-audit**, and prove the ingestion pipeline seeding **Regulation Set M-B** (shared data + overlay,
-including at least one Mega). Everything else builds on that spine.
+Kick off **Phase 0** — scaffold the Expo app and `@battlepad/core`, and build the **Serebii ingestion**
+covering **M-A (Seasons M-1, M-2)** and **M-B (Season M-3)** — Pokémon, abilities/skills, moves, Megas,
+and items. Everything else builds on that data spine.

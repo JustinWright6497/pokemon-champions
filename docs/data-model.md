@@ -64,21 +64,37 @@ interface MegaForm {
   ability: string;       // Mega forms have a single fixed ability
 }
 
-// A regulation set (e.g. Pokémon Champions "M-B") is the top-level ruleset.
+// A regulation set (e.g. Pokémon Champions "M-A"/"M-B") is the top-level ruleset.
+// Legality is cumulative across regulations; each spans one or more Seasons.
 interface RegulationSet {
-  id: string;            // e.g. "champions-mB"
-  name: string;          // "Pokémon Champions — Regulation Set M-B"
+  id: string;            // e.g. "champions-mA" | "champions-mB"
+  name: string;          // "Pokémon Champions — Regulation M-B"
   game: 'champions';
-  style: 'doubles';
-  levelCap: number;      // 50
-  bringCount: 6;         // team size
-  pickCount: 4;          // chosen at team preview
+  // Champions has BOTH rulesets; VGC = doubles. Each carries its own team-size bounds.
+  rulesets: {
+    singles: { minTeam: 3; maxTeam: 6 };
+    doubles: { minTeam: 4; maxTeam: 6 };   // VGC
+  };
+  levelCap: number;      // 50 (all Pokémon auto-leveled)
+  pickCount: 4;          // chosen at team preview (VGC doubles)
+  timers: { yourTimeSec: 420; teamPreviewSec: 90; turnSec: 45 };
   clauses: string[];     // ["species", "item"]
-  allowedSpecies: string[];   // allow-list of species slugs legal in this reg set
+  allowedSpecies: string[];   // cumulative allow-list of species/form slugs legal in this reg set
   allowedMegas: string[];     // MegaForm ids permitted to Mega Evolve in this reg set
+  addedItems?: string[];      // items newly introduced by this regulation (e.g. M-B item batch)
   banlist: { species: string[]; items: string[]; moves: string[]; abilities: string[] };
   activeFrom: string;    // ISO date, e.g. "2026-06-17"
   activeUntil?: string;  // ISO date, e.g. "2026-09-02"
+  seasons: Season[];
+}
+
+interface Season {
+  id: string;            // e.g. "M-1" | "M-2" | "M-3"
+  regulationId: string;  // parent regulation
+  activeFrom: string;    // ISO date
+  activeUntil?: string;  // ISO date
+  // Optional per-season legality delta if a season differs from its regulation's baseline.
+  allowedSpeciesOverride?: string[];
 }
 ```
 
@@ -150,25 +166,29 @@ interface OpponentMon {
 ### Sources (evaluate licenses before use)
 | Source | Provides | Notes |
 | --- | --- | --- |
-| **`@pkmn/dex` / `@pkmn/data`** | Species, moves, items, abilities, learnsets, type chart, **classic Megas** | Maintained TS port of Showdown data — primary source for **shared** main-series content |
+| **Serebii — Pokémon Champions** | **Source of truth** for Champions: per-regulation/season legality, newly-usable Pokémon (incl. regional + **Mega forms**), item additions, and per-species **abilities/skills + moves** | See [data-sources.md](data-sources.md) for the URL map and scraping plan |
+| **`@pkmn/dex` / `@pkmn/data`** | Base stats, type chart, shared main-series mechanics, classic Megas | Used as a **cross-check** for shared content, not the Champions authority |
 | **`@smogon/calc`** | Damage calculation engine | Use directly; do not reimplement damage math |
-| **Battlepad Champions overlay** (curated) | **Reg M-B allow-list**, **new Legends Z-A Mega forms & stones**, Champions-specific tweaks | Our own maintained data — the gap `@pkmn/*` does not yet cover for Champions |
-| **PokéAPI** | Supplemental dex data, IDs, some media URLs | Good for seeding/cross-checking; not required at runtime |
-| **Community sprite sets** | Icons/sprites | Only if license permits; otherwise omit media in v1 |
+| **PokéAPI** | Supplemental dex data, IDs | Optional seeding/cross-checking; not required at runtime |
+| **Community sprite sets** | Icons/sprites | Only if license permits; otherwise omit media in v1 (do not redistribute Serebii assets) |
 
-> See [technical-architecture.md §9](technical-architecture.md#9-data-availability-risk-pokémon-champions)
-> for the Champions data-availability risk. The **overlay is the critical piece**: everything
-> Champions-specific that upstream libraries lack lives there, kept separate from shared data.
+> The **Champions overlay is built from Serebii** and is the critical piece: everything
+> Champions-specific (Reg M-A/M-B legality across Seasons M-1/M-2/M-3, Mega forms, item additions)
+> lives there, kept separate from shared data. See
+> [technical-architecture.md §9](technical-architecture.md#9-data-availability-risk-pokémon-champions).
 
 ### Pipeline (`tools/ingest`)
-1. **Fetch/generate** shared content from `@pkmn/*` (and optionally PokéAPI) at build time.
-2. **Apply the Champions overlay** (curated JSON): Reg M-B allowed species/Megas, new Mega forms
-   (base→mega stat/type/ability deltas), and Mega Stones.
-3. **Normalize** into Battlepad's compact schema (stable slugs, minimal fields we actually use).
+1. **Scrape Serebii** at build time (gently; cached, rate-limited — see
+   [data-sources.md §6](data-sources.md#6-compliance--etiquette-for-scraping-serebii)):
+   - Regulation pages (**M-A**, **M-B**) → rulesets, season durations, newly-usable Pokémon, item additions.
+   - Champions Pokédex species pages → abilities/skills, moves, stats, types, and Mega-form data.
+2. **Join & normalize** into Battlepad's schema (stable slugs); compute **cumulative legality per
+   regulation and per season** (M-1, M-2 under M-A; M-3 under M-B).
+3. **Cross-check** base stats/types against `@pkmn/data` for shared species; flag discrepancies.
 4. **Validate** with a schema check (e.g. Zod) and golden tests (counts, sample species + **every
    Mega form** correctness).
 5. **Emit** versioned artifacts into `packages/data` with a `manifest.json`
-   (`{ datasetVersion, regulationSets[], generatedAt, counts }`).
+   (`{ datasetVersion, regulations: ["M-A","M-B"], seasons: ["M-1","M-2","M-3"], generatedAt, counts }`).
 6. **Commit** generated artifacts (or fetch during CI build) so the app build is reproducible offline.
 
 ### Versioning
@@ -177,9 +197,10 @@ interface OpponentMon {
   version shipped via app update. Teams store `regulationId`, so old teams remain interpretable.
 
 ## 6. Open data questions to resolve during Phase 0
-- Exact licenses/attribution requirements for each chosen source (especially any sprites).
-- **Champions data gap audit:** which Reg M-B species and (especially) which of the 16 new Legends
-  Z-A Megas are already present in `@pkmn/data`/`@smogon/calc`, and what must be curated by hand.
-- Authoritative source for the **Reg M-B allowed-Pokémon and allowed-Mega lists** (e.g. Victory Road
-  / official announcements) and a process to keep the overlay in sync.
+- Serebii scraping **terms/permission** and attribution requirements (see
+  [data-sources.md §6](data-sources.md#6-compliance--etiquette-for-scraping-serebii)).
+- Whether **per-season** legality (M-1 vs M-2) differs from the regulation-level lists, or whether
+  regulation-level lists are sufficient.
+- Full enumeration of **Mega forms** across M-A + M-B and each Mega's stats/type/ability (the data
+  least likely to exist outside Serebii).
 - Whether to ship reference data as JSON bundles or a prebuilt read-only SQLite file (perf vs. size).
